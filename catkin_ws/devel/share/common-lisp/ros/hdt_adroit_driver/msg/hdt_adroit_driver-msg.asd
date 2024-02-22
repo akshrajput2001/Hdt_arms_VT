@@ -1,0 +1,26 @@
+
+(cl:in-package :asdf)
+
+(defsystem "hdt_adroit_driver-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "HDTControlCmdTelem" :depends-on ("_package_HDTControlCmdTelem"))
+    (:file "_package_HDTControlCmdTelem" :depends-on ("_package"))
+    (:file "HDTDebugTelem" :depends-on ("_package_HDTDebugTelem"))
+    (:file "_package_HDTDebugTelem" :depends-on ("_package"))
+    (:file "HDTErrorTelem" :depends-on ("_package_HDTErrorTelem"))
+    (:file "_package_HDTErrorTelem" :depends-on ("_package"))
+    (:file "HDTHSTelem" :depends-on ("_package_HDTHSTelem"))
+    (:file "_package_HDTHSTelem" :depends-on ("_package"))
+    (:file "HDTJointState" :depends-on ("_package_HDTJointState"))
+    (:file "_package_HDTJointState" :depends-on ("_package"))
+    (:file "HDTLSTelem" :depends-on ("_package_HDTLSTelem"))
+    (:file "_package_HDTLSTelem" :depends-on ("_package"))
+    (:file "HDTMSTelem" :depends-on ("_package_HDTMSTelem"))
+    (:file "_package_HDTMSTelem" :depends-on ("_package"))
+    (:file "HDTParameterTelem" :depends-on ("_package_HDTParameterTelem"))
+    (:file "_package_HDTParameterTelem" :depends-on ("_package"))
+    (:file "HDTStatusTelem" :depends-on ("_package_HDTStatusTelem"))
+    (:file "_package_HDTStatusTelem" :depends-on ("_package"))
+  ))

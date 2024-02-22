@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="hdt_saffir_left" params="parent_link namespace motor_base_id *origin">
+    <xacro:hdt_saffir reflect="1" parent_link="${parent_link}" namespace="${namespace}" motor_base_id="${motor_base_id}">
+      <xacro:insert_block name="origin" />
+    </xacro:hdt_saffir>
+  </xacro:macro>
+  <xacro:macro name="hdt_saffir_right" params="parent_link namespace motor_base_id *origin">
+    <xacro:hdt_saffir reflect="-1" parent_link="${parent_link}" namespace="${namespace}" motor_base_id="${motor_base_id}">
+      <xacro:insert_block name="origin" />
+    </xacro:hdt_saffir>
+  </xacro:macro>
+
+  <!-- reflect: should be either 1 or -1, and can be multiplied to negate a side -->
+  <!--          the left:1, right:-1 mapping is the same as for PR2 (and works with the standard y axis) -->
+  <xacro:macro name="hdt_saffir" params="reflect parent_link namespace motor_base_id *origin">
+    <!-- import gazebo definitions -->
+    <xacro:include filename="$(find hdt_saffir_description)/urdf/hdt_saffir.gazebo" />
+    <xacro:hdt_saffir_gazebo namespace="${namespace}"/>
+    <!-- import hand description -->
+    <xacro:include filename="$(find hdt_saffir_description)/urdf/hdt_saffir_hand_macro.xacro" />
+
+    <!-- mounting plate -->
+    <joint name="${namespace}pedestal_joint" type="fixed">
+      <xacro:insert_block name="origin" />
+      <parent link="${parent_link}"/>
+      <child link="${namespace}pedestal_link"/>
+    </joint>
+
+    <link name="${namespace}pedestal_link">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/PEDESTAL_ASSEMBLY.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/PEDESTAL_ASSEMBLY.STL"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+
+
+      <inertial>
+        <origin xyz="0.00824926 0.00007832 0.02192315" rpy="0 0 0"/>
+        <mass value="0.25375688"/>
+        <inertia
+            ixx="0.00014143" ixy="-0.00000016" ixz="-0.00001282"
+            iyy="0.00016740" iyz="0.00000015"
+            izz="0.00020523"/>
+      </inertial>
+
+    </link>
+
+    <!-- Drive 1 -->
+    <joint name="${namespace}joint0" type="fixed">
+      <origin xyz="0 0 .0891" rpy="${-M_PI/2} 0 ${reflect * M_PI/2}"/>
+      <parent link="${namespace}pedestal_link"/>
+      <child link="${namespace}drive1"/>
+    </joint>
+
+    <link name="${namespace}drive1">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_MT.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_MT.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+
+
+      <inertial>
+        <origin xyz="-0.00004358 0.00244867 0.00739686" rpy="0 0 0"/>
+        <mass value="1.73427319"/>
+        <inertia
+            ixx="0.00212963" ixy="-0.00000090" ixz="-0.00000052"
+            iyy="0.00199851" iyz="-0.00004418"
+            izz="0.00138126"/>
+      </inertial>
+
+    </link>
+
+    <!-- Drive 2 -->
+    <joint name="${namespace}joint1" type="revolute">
+      <hdt id="${motor_base_id + 0}" kmin="10" kmax="20" inertia="0.1"/>
+      <axis xyz="0 ${reflect * -1} 0"/>
+      <limit effort="180.0" lower="${-M_PI}" upper="${M_PI/2}" velocity="0.4"/>
+      <origin xyz="0 0 -.082642" rpy="${M_PI/2} 0 0"/>
+      <parent link="${namespace}drive1"/>
+      <child link="${namespace}drive2"/>
+      <dynamics damping="0.7" friction="0.01"/>
+    </joint>
+
+    <transmission name="${namespace}tran1">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${namespace}joint1">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${namespace}motor1">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <link name="${namespace}drive2">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_LT.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_LT.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="-0.00003658 0.00177045 0.00631346" rpy="0 0 0"/>
+        <mass value="1.39278013"/>
+        <inertia
+            ixx="0.00159582" ixy="-0.00000077" ixz="-0.00000081"
+            iyy="0.00151230" iyz="-0.00002261"
+            izz="0.00105406"/>
+      </inertial>
+    </link>
+
+    <!-- Shoulder bracket -->
+    <joint name="${namespace}joint2" type="revolute">
+      <hdt id="${motor_base_id + 1}" kmin="10" kmax="20" inertia="0.1"/>
+      <axis xyz="0 0 -1"/>
+      <limit effort="90.0" lower="${((reflect + 1) * -M_PI + (reflect - 1) * M_PI / 12)/2}" upper="${((reflect + 1) * .25 + (reflect - 1) * -M_PI)/2}" velocity="0.4"/>
+      <origin xyz="0 0 -.07526" rpy="0 0 ${reflect * -M_PI/2}"/>
+      <parent link="${namespace}drive2"/>
+      <child link="${namespace}shoulder"/>
+      <dynamics damping="0.7" friction="0.01"/>
+    </joint>
+
+    <transmission name="${namespace}tran2">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${namespace}joint2">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${namespace}motor2">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <link name="${namespace}shoulder">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/SHOULDER_BRACKET.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/SHOULDER_BRACKET.STL"/>
+        </geometry>
+        <material name="maroon"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="0.00013570 -0.04958110 0.01659126" rpy="0 0 0"/>
+        <mass value="0.48998269"/>
+        <inertia
+            ixx="0.00124111" ixy="-0.00000083" ixz="-0.00000019"
+            iyy="0.00020695" iyz="0.00001359"
+            izz="0.00132624"/>
+      </inertial>
+    </link>
+
+    <!-- Drive 3 -->
+    <joint name="${namespace}shoulder" type="fixed">
+      <origin xyz="0 -.1 .07526" rpy="${-M_PI/2} 0 0"/>
+      <parent link="${namespace}shoulder"/>
+      <child link="${namespace}drive3"/>
+    </joint>
+
+    <link name="${namespace}drive3">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_LT.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_LT.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="-0.00003658 0.00177045 0.00631346" rpy="0 0 0"/>
+        <mass value="1.39278013"/>
+        <inertia
+            ixx="0.00159582" ixy="-0.00000077" ixz="-0.00000081"
+            iyy="0.00151230" iyz="-0.00002261"
+            izz="0.00105406"/>
+      </inertial>
+    </link>
+
+    <!-- Proximal tube -->
+    <joint name="${namespace}joint3" type="revolute">
+      <hdt id="${motor_base_id + 2}" kmin="10" kmax="20" inertia="0.1"/>
+      <axis xyz="0 0 -1"/>
+      <limit effort="90.0" lower="${-M_PI}" upper="${M_PI}" velocity="0.4"/>
+      <origin xyz="0 0 -.1900260" rpy="${-M_PI} 0 ${(reflect + 1) / 2 * M_PI}"/>
+      <parent link="${namespace}drive3"/>
+      <child link="${namespace}tube"/>
+      <dynamics damping="0.01" friction="0.01"/>
+    </joint>
+
+    <transmission name="${namespace}tran3">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${namespace}joint3">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${namespace}motor3">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <link name="${namespace}tube">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/PROXIMAL_TUBE.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/PROXIMAL_TUBE.STL"/>
+        </geometry>
+        <material name="orange"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="-0.00003112 0.00004034 -0.06064495" rpy="0 0 0"/>
+        <mass value="0.30359918"/>
+        <inertia
+            ixx="0.00099336" ixy="0.00000000" ixz="-0.00000021"
+            iyy="0.00099312" iyz="-0.00000024"
+            izz="0.00020564"/>
+      </inertial>
+    </link>
+
+
+    <!-- Drive 4 -->
+    <joint name="${namespace}tube" type="fixed">
+      <origin xyz="0 0 0.0486304" rpy="${-M_PI/2} 0 ${-M_PI/2}"/>
+      <parent link="${namespace}tube"/>
+      <child link="${namespace}drive4"/>
+    </joint>
+
+    <link name="${namespace}drive4">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_LT.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/MK4_LT.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="-0.00003658 0.00177045 0.00631346" rpy="0 0 0"/>
+        <mass value="1.39278013"/>
+        <inertia
+            ixx="0.00159582" ixy="-0.00000077" ixz="-0.00000081"
+            iyy="0.00151230" iyz="-0.00002261"
+            izz="0.00105406"/>
+      </inertial>
+    </link>
+
+    <!-- Forearm bracket -->
+    <joint name="${namespace}joint4" type="revolute">
+      <hdt id="${motor_base_id + 3}" kmin="10" kmax="20" inertia="0.1"/>
+      <axis xyz="0 0 ${reflect * -1}"/>
+      <limit effort="90.0" lower="${-M_PI / 4}" upper="${M_PI}" velocity="0.4"/>
+      <origin xyz="0 0 -.061820" rpy="0 0 ${reflect * M_PI/2}"/>
+      <parent link="${namespace}drive4"/>
+      <child link="${namespace}forearm"/>
+      <dynamics damping="0.7" friction="0.01"/>
+    </joint>
+
+    <transmission name="${namespace}tran4">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${namespace}joint4">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${namespace}motor4">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <link name="${namespace}forearm">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/FOREARM_BRACKET.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/FOREARM_BRACKET.STL"/>
+        </geometry>
+        <material name="maroon"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="-0.00009916 -0.03803734 0.01245969" rpy="0 0 0"/>
+        <mass value="0.29009416"/>
+        <inertia
+            ixx="0.00060152" ixy="-0.00000038" ixz="0.00000003"
+            iyy="0.00009927" iyz="-0.00000788"
+            izz="0.00065009"/>
+      </inertial>
+    </link>
+
+    <!-- Drive 5 -->
+    <joint name="${namespace}forearm" type="fixed">
+      <origin xyz="0 -.1 0.0509560" rpy="${-M_PI/2} 0 0"/>
+      <parent link="${namespace}forearm"/>
+      <child link="${namespace}drive5"/>
+    </joint>
+
+    <link name="${namespace}drive5">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_DRIVE.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_DRIVE.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="0.00000913 0.00110529 -0.01094052" rpy="0 0 0"/>
+        <mass value="0.30279069"/>
+        <inertia
+            ixx="0.00012394" ixy="-0.00000001" ixz="-0.00000007"
+            iyy="0.00011824" iyz="0.00000325"
+            izz="0.00008729"/>
+      </inertial>
+    </link>
+
+    <!-- Drive 6 -->
+    <joint name="${namespace}joint5" type="revolute">
+      <hdt id="${motor_base_id + 4}" kmin="10" kmax="20" inertia="0.1"/>
+      <axis xyz="0 1 0"/>
+      <limit effort="35.0" lower="${-M_PI}" upper="${M_PI}" velocity="${2*M_PI/3}"/>
+      <origin xyz="0 0 -.067262" rpy="${M_PI/2} 0 ${reflect * -M_PI/2}"/>
+      <parent link="${namespace}drive5"/>
+      <child link="${namespace}drive6"/>
+      <dynamics damping="0.7" friction="0.01"/>
+    </joint>
+
+    <transmission name="${namespace}tran5">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${namespace}joint5">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${namespace}motor5">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <link name="${namespace}drive6">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_DRIVE.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_DRIVE.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="0.00000913 0.00110529 -0.01094052" rpy="0 0 0"/>
+        <mass value="0.30279069"/>
+        <inertia
+            ixx="0.00012394" ixy="-0.00000001" ixz="-0.00000007"
+            iyy="0.00011824" iyz="0.00000325"
+            izz="0.00008729"/>
+      </inertial>
+    </link>
+
+    <!-- A35 bracket -->
+    <joint name="${namespace}joint6" type="revolute">
+      <hdt id="${motor_base_id + 5}" kmin="10" kmax="20" inertia="0.1"/>
+      <axis xyz="0 0 -1"/>
+      <limit effort="35.0" lower="${-M_PI/2}" upper="${M_PI/2}" velocity="${2*M_PI/3}"/>
+      <origin xyz="0 0 -.0566728" rpy="0 0 0"/>
+      <parent link="${namespace}drive6"/>
+      <child link="${namespace}A35"/>
+      <dynamics damping="0.7" friction="0.01"/>
+    </joint>
+
+    <transmission name="${namespace}tran6">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${namespace}joint6">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${namespace}motor6">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <link name="${namespace}A35">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_BRACKET.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_BRACKET.STL"/>
+        </geometry>
+        <material name="maroon"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="-0.00001212 -0.02930845 0.01300716" rpy="0 0 0"/>
+        <mass value="0.14250708"/>
+        <inertia
+            ixx="0.00011554" ixy="0.00000005" ixz="-0.00000003"
+            iyy="0.00003814" iyz="-0.00000988"
+            izz="0.00012738"/>
+      </inertial>
+    </link>
+
+    <!-- Drive 7 -->
+    <joint name="${namespace}A35" type="fixed">
+      <origin xyz="0 -.05 .0566728" rpy="${-M_PI/2} 0 0"/>
+      <parent link="${namespace}A35"/>
+      <child link="${namespace}drive7"/>
+    </joint>
+
+    <link name="${namespace}drive7">
+      <!--<collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_DRIVE.STL"/>
+        </geometry>
+      </collision>-->
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hdt_saffir_description/meshes/A35_DRIVE.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+
+      <inertial>
+        <origin xyz="0.00000913 0.00110529 -0.01094052" rpy="0 0 0"/>
+        <mass value="0.30279069"/>
+        <inertia
+            ixx="0.00012394" ixy="-0.00000001" ixz="-0.00000007"
+            iyy="0.00011824" iyz="0.00000325"
+            izz="0.00008729"/>
+      </inertial>
+    </link>
+
+    <!-- endpoint link -->
+    <joint name="${namespace}joint7" type="revolute">
+      <hdt id="${motor_base_id + 6}" kmin="10" kmax="20" inertia="0.1"/>
+      <axis xyz="0 1 0"/>
+      <limit effort="35.0" lower="${-M_PI}" upper="${M_PI}" velocity="${2*M_PI/3}"/>
+      <origin xyz="0 0 -.0421620" rpy="${M_PI/2} 0 ${reflect * -M_PI}"/>
+      <parent link="${namespace}drive7"/>
+      <child link="${namespace}end_effector"/>
+      <dynamics damping="0.7" friction="0.01"/>
+    </joint>
+
+    <transmission name="${namespace}tran7">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${namespace}joint7">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${namespace}motor7">
+        <mechanicalReduction>1</mechanicalReduction>
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      </actuator>
+    </transmission>
+
+    <link name="${namespace}end_effector">
+    </link>
+
+    <!-- endpoint -->
+    <joint name="${namespace}endpoint_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="${namespace}end_effector"/>
+      <child link="${namespace}endpoint_link"/>
+    </joint>
+
+    <link name="${namespace}endpoint_link">
+    </link>
+
+    <xacro:hdt_saffir_hand reflect="${reflect}" parent_link="endpoint_link" namespace="${namespace}" motor_base_id="${motor_base_id + 9}">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:hdt_saffir_hand>
+  </xacro:macro>
+</robot>

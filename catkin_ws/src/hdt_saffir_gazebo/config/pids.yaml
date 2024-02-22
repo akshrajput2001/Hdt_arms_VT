@@ -1,0 +1,26 @@
+hdt_saffir:
+  gains:
+    # Right
+    right/joint1: {p: 100.0, i: 0.1, d: 10.0}
+    right/joint2: {p: 100.0, i: 0.1, d: 10.0}
+    right/joint3: {p: 100.0, i: 0.1, d: 10.0}
+    right/joint4: {p: 100.0, i: 0.1, d: 10.0}
+    right/joint5: {p: 100.0, i: 0.1, d: 10.0}
+    right/joint6: {p: 100.0, i: 0.1, d: 10.0}
+    right/joint7: {p: 100.0, i: 0.1, d: 10.0}
+    right/thumb_base: {p: 100.0, i: 0.1, d: 10.0}
+    right/thumb_prox: {p: 100.0, i: 0.1, d: 10.0}
+    right/index_prox: {p: 100.0, i: 0.1, d: 10.0}
+    right/ring_prox: {p: 100.0, i: 0.1, d: 10.0}
+    # Left
+    left/joint1: {p: 100.0, i: 0.1, d: 10.0}
+    left/joint2: {p: 100.0, i: 0.1, d: 10.0}
+    left/joint3: {p: 100.0, i: 0.1, d: 10.0}
+    left/joint4: {p: 100.0, i: 0.1, d: 10.0}
+    left/joint5: {p: 100.0, i: 0.1, d: 10.0}
+    left/joint6: {p: 100.0, i: 0.1, d: 10.0}
+    left/joint7: {p: 100.0, i: 0.1, d: 10.0}
+    left/thumb_base: {p: 100.0, i: 0.1, d: 10.0}
+    left/thumb_prox: {p: 100.0, i: 0.1, d: 10.0}
+    left/index_prox: {p: 100.0, i: 0.1, d: 10.0}
+    left/ring_prox: {p: 100.0, i: 0.1, d: 10.0}

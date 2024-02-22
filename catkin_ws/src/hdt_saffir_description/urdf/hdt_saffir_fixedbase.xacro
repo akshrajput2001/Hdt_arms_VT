@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<robot name="hdt_saffir_fixedbase" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find hdt_saffir_description)/urdf/config.xacro" />
+  <xacro:include filename="$(find hdt_saffir_description)/urdf/hdt_saffir_macro.xacro" />
+
+  <!-- import gazebo prefix -->
+  <xacro:include filename="$(find hdt_saffir_description)/urdf/hdt_saffir_prefix.gazebo" />
+
+  <!-- segment 0 -->
+  <link name="world"/>
+
+  <joint name="base_link" type="floating">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <!-- Base1 -->
+    <collision>
+      <origin xyz="0 0 ${0.04/2}" rpy="0 0 0"/>
+      <geometry>
+        <box size="1.0 0.16 0.04"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 ${0.04/2}" rpy="0 0 0"/>
+      <geometry>
+        <box size="1.0 0.16 0.04"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+    <!-- Base2 -->
+    <collision>
+      <origin xyz="0 0 ${0.04/2}" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.16 1.0 0.04"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 ${0.04/2}" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.16 1.0 0.04"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+    <!-- Torso -->
+    <collision>
+      <origin xyz="0 0 ${0.92/2 + 0.04}" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.08 0.92"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 ${0.92/2 + 0.04}" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.08 0.92"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+    <!-- Shoulder -->
+    <collision>
+      <origin xyz="0 0 ${0.16/2 + 0.92 + 0.04}" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.5 0.16"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 ${0.16/2 + 0.92 + 0.04}" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.5 0.16"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+    <!-- Temporary Parameter -->
+    <inertial>
+      <origin xyz="0 0 1" rpy="0 0 0"/>
+      <mass value="10"/>
+      <inertia
+          ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0"
+          izz="1.0"/>
+    </inertial>
+  </link>
+
+  <xacro:hdt_saffir_left parent_link="base_link" namespace="left/" motor_base_id="41">
+    <origin xyz="${0.08 / 2} 0.2 ${0.16/2 + 0.92 + 0.04}" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+  </xacro:hdt_saffir_left>
+
+  <xacro:hdt_saffir_right parent_link="base_link" namespace="right/" motor_base_id="1">
+    <origin xyz="${0.08 / 2} -0.2 ${0.16/2 + 0.92 + 0.04}" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+  </xacro:hdt_saffir_right>
+</robot>

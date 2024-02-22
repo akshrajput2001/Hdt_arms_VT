@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="hdt_saffir_right" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:arg name="namespace" default=""/>
+  <xacro:include filename="$(find hdt_saffir_description)/urdf/config.xacro" />
+  <xacro:include filename="$(find hdt_saffir_description)/urdf/hdt_saffir_macro.xacro" />
+
+  <!-- import gazebo prefix -->
+  <xacro:include filename="$(find hdt_saffir_description)/urdf/hdt_saffir_prefix.gazebo" />
+
+  <!-- segment 0 -->
+  <link name="world"/>
+
+  <joint name="base_link" type="fixed">
+    <origin xyz="0 0 1" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+  </link>
+
+  <xacro:hdt_saffir_right parent_link="base_link" namespace="$(arg namespace)" motor_base_id="1">
+    <origin xyz="0 0 0" rpy="${M_PI/2} 0 0" />
+  </xacro:hdt_saffir_right>
+</robot>

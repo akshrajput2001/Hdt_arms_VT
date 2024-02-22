@@ -1,0 +1,19 @@
+<launch>
+  <arg name="robot" default="hdt_saffir_fixedbase"/>
+  <arg name="gzpose" default="-x 0 -y 0 -z 0.0 -R 0.0 -P 0.0 -Y 0.0"/>
+
+  <!-- PID gains -->
+  <rosparam file="$(find hdt_saffir_gazebo)/config/pids.yaml" command="load"/>
+
+  <!-- Joint effort controllers -->
+  <rosparam file="$(find hdt_saffir_gazebo)/config/joint_effort_controllers.yaml" command="load"/>
+
+  <!-- Robot model -->
+  <include file="$(find hdt_saffir_description)/launch/upload_hdt_arm.launch">
+    <arg name="robot" default="$(arg robot)"/>
+  </include>
+
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+        args="-urdf -param robot_description $(arg gzpose) -model hdt_saffir_fixedbase"/>
+</launch>

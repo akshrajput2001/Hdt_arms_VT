@@ -1,0 +1,27 @@
+hdt_saffir:
+  hdt_controller:
+    # Left
+      left/joint1/pid: {p: 100.0, i: 1, d: 10.0}
+      left/joint2/pid: {p: 100.0, i: 1, d: 10.0}
+      left/joint3/pid: {p: 100.0, i: 1, d: 10.0}
+      left/joint4/pid: {p: 100.0, i: 1, d: 10.0}
+      left/joint5/pid: {p: 100.0, i: 1, d: 10.0}
+      left/joint6/pid: {p: 100.0, i: 1, d: 10.0}
+      left/joint7/pid: {p: 100.0, i: 1, d: 10.0}
+      left/thumb_base/pid: {p: 10.0, i: 1, d: 0.0}
+      left/thumb_prox/pid: {p: 10.0, i: 1, d: 0.0}
+      left/index_prox/pid: {p: 10.0, i: 1, d: 0.0}
+      left/ring_prox/pid: {p: 10.0, i: 1, d: 0.0}
+    # Right
+      right/joint1/pid: {p: 100.0, i: 1, d: 10.0}
+      right/joint2/pid: {p: 100.0, i: 1, d: 10.0}
+      right/joint3/pid: {p: 100.0, i: 1, d: 10.0}
+      right/joint4/pid: {p: 100.0, i: 1, d: 10.0}
+      right/joint5/pid: {p: 100.0, i: 1, d: 10.0}
+      right/joint6/pid: {p: 100.0, i: 1, d: 10.0}
+      right/joint7/pid: {p: 100.0, i: 1, d: 10.0}
+      right/thumb_base/pid: {p: 1.0, i: 1, d: 0.0}
+      right/thumb_prox/pid: {p: 1.0, i: 1, d: 0.0}
+      right/index_prox/pid: {p: 10.0, i: 1, d: 0.0}
+      right/ring_prox/pid: {p: 1.0, i: 1, d: 0.0}
+

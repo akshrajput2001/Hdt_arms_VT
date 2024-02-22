@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hdt_saffir_description
+    relative_path: urdf/hdt_saffir_left.xacro
+  SRDF:
+    relative_path: config/hdt_saffir.srdf
+  CONFIG:
+    generated_timestamp: 1498069113

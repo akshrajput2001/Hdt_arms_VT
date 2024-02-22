@@ -1,0 +1,8 @@
+prefix=/home/arl/catkin_ws/devel
+
+Name: hdt_saffir_gazebo
+Description: Description of hdt_saffir_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

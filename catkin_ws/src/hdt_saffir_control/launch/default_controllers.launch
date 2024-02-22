@@ -1,0 +1,16 @@
+<launch>
+  <arg name="publish_frequency" default="500" />
+
+  <!-- Joint state controller -->
+  <rosparam subst_value="true">
+    hdt_saffir:
+      joint_state_controller:
+        type: joint_state_controller/JointStateController
+        publish_rate: $(arg publish_frequency)
+  </rosparam>
+
+  <!-- Default controllers -->
+  <node name="default_controllers_spawner" pkg="controller_manager" type="spawner" output="screen" ns="/hdt_saffir"
+        args="joint_state_controller
+              hdt_controller"/>
+</launch>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<launch>
+    <param name="use_sim_time" value="false" />
+
+    <!-- arguments -->
+    <arg name="gui" default="false" />
+    <arg name="use_hocu" default="false" />
+    <arg name="arm" default="right" />
+    <arg name="device" default="can0" />
+    <arg name="default_urdf" default="true" />
+    <arg name="ip_address" default="192.168.1.45" />
+    <arg name="port" default="8765" />
+    <!--
+        argument of coms_interface:
+        loopback for simulation
+        tcpcoms
+        socketcan
+        dualcan
+    -->
+    <arg name="coms_interface" default="loopback" />
+    <arg name="impedance_enabled" default="false" />
+    <arg name="console_enabled" default="true" />
+    <arg name="namespace" default="right/" />
+    <arg name="use_gazebo" default="true" />
+
+    <!-- <group ns="$(arg namespace)"> -->
+        <!-- launch coms node -->
+        <include file="$(find hdt_adroit_driver)/launch/hdt_adroit_coms.launch">
+            <arg name="arm" value="$(arg arm)" />
+            <arg name="device" value="$(arg device)"/>
+            <arg name="coms_interface" value="$(arg coms_interface)" />
+            <arg name="ip_address" value="$(arg ip_address)" />
+            <arg name="port" value="$(arg port)" />
+            <arg name="impedance_enabled" value="$(arg impedance_enabled)" />
+            <arg name="console_enabled" value="$(arg console_enabled)" />
+            <arg name="default_urdf" value="$(arg default_urdf)" />
+            <arg name="namespace" value="$(arg namespace)" />
+        </include>
+
+        <!-- launch arm control node -->
+        <node name="joint_control" pkg="hdt_saffir_control"  type="joint_control" respawn="false" output="screen">
+            <param name="use_hocu" value="$(arg use_hocu)" />
+            <param name="use_gazebo" value="$(arg use_gazebo)" />
+        </node>
+    <!-- </group> -->
+</launch>

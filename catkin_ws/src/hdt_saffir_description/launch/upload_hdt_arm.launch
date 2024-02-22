@@ -1,0 +1,9 @@
+<launch>
+  <arg name="robot" default="hdt_saffir_fixedbase"/>
+
+  <!-- Load URDF into ROS param server -->
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find hdt_saffir_description)/urdf/$(arg robot).xacro'"/>
+
+  <!-- Joint limits -->
+  <!-- <rosparam file="$(find hdt_saffir_description)/config/joint_limits.yaml" command="load"/> -->
+</launch>

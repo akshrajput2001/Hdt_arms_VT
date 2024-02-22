@@ -1,0 +1,44 @@
+<launch>
+  <arg name="robot" default="hdt_saffir_fixedbase"/>
+  <arg name="gzpose" default="-x 0 -y 0 -z 0.0 -R 0.0 -P 0.0 -Y 0.0"/>
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  <arg name="use_gui" default="false" />
+  <arg name="console_enabled" default="false" />
+  <arg name="run_rviz" default="true" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <!-- <arg name="world_name" value="$(find hdt_saffir_gazebo)/worlds/hdt_saffir_fixedbase.world"/> -->
+    <!-- <arg name="world_name" value="$(find hdt_saffir_gazebo)/worlds/test.world"/> -->
+    <arg name="debug" value="$(arg debug)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    <arg name="headless" value="$(arg headless)"/>
+  </include>
+
+  <!-- Spawn robot in simulation -->
+  <include file="$(find hdt_saffir_gazebo)/launch/hdt_saffir_fixedbase_spawn.launch">
+    <arg name="robot" default="$(arg robot)"/>
+    <arg name="gzpose" value="$(arg gzpose)"/>
+  </include>
+
+  <!-- Bring up robot -->
+  <include file="$(find hdt_saffir_control)/launch/hdt_arm_bringup.launch"/>
+
+  <!-- launch rviz -->
+  <node name="rviz" if="$(arg run_rviz)" pkg="rviz" type="rviz" args="-d $(find hdt_saffir_description)/launch/config.rviz"/>
+
+  <!-- <include file="$(find hdt_saffir_control)/launch/joint_control2.launch"> -->
+  <!--   <arg name="use_gui" value="$(arg use_gui)" /> -->
+  <!--   <arg name="coms_interface" value="loopback" /> -->
+  <!--   <arg name="console_enabled" value="$(arg console_enabled)" /> -->
+  <!--   <arg name="run_rviz" value="$(arg run_rviz)" /> -->
+  <!--   <arg name="default_urdf" value="false" /> -->
+  <!--   <arg name="use_sim_time" value="$(arg use_sim_time)" /> -->
+  <!--   <arg name="use_gazebo" value="true" /> -->
+  <!-- </include> -->
+</launch>

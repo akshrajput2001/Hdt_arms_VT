@@ -1,0 +1,8 @@
+prefix=/home/arl/catkin_ws/devel
+
+Name: three_dof_planar_manipulator
+Description: Description of three_dof_planar_manipulator
+Version: 0.0.0
+Cflags: -I/home/arl/catkin_ws/devel/include -I/home/arl/catkin_ws/src/3-DOF_Manipulator/three_dof_planar_manipulator/include
+Libs: -L${prefix}/lib 
+Requires: actionlib control_msgs controller_manager roscpp rospy std_msgs std_srvs trajectory_msgs visualization_msgs message_runtime

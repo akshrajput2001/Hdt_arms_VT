@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<launch>
+  <include file="$(find hdt_adroit_driver)/launch/hdt_adroit_coms.launch" >
+	<arg name="arm" value="left" />
+	<arg name="device" value="can4" />
+	<arg name="console_enabled" value="false" />
+  </include>
+</launch>
+

@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<launch>
+    <arg name="use_sim_time" default="false" />
+	<param name="use_sim_time" value="$(arg use_sim_time)" />
+
+	<!-- arguments -->
+	<arg name="use_gui" default="false" />
+	<arg name="use_hocu" default="false" />
+	<arg name="use_joy" default="false" />
+	<arg name="run_rviz" default="true" />
+	<arg name="default_urdf" default="true" />
+	<!--
+		argument of coms_interface:
+		loopback for simulation
+		tcpcoms
+		socketcan
+		dualcan
+	-->
+	<arg name="coms_interface" default="loopback" />
+	<arg name="impedance_enabled" default="false" />
+	<arg name="console_enabled" default="true" />
+    <arg name="use_gazebo" default="true" />
+
+	<!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+	<!-- <include file="$(find hdt_saffir_moveit)/launch/planning_context.launch"> -->
+	<!-- 	<arg name="load_robot_description" value="false"/> -->
+	<!-- </include> -->
+
+    <!-- Load joint controller configurations from YAML file to parameter server -->
+    <rosparam file="$(find hdt_saffir_control)/config/hdt_saffir_control.yaml" command="load"/>
+
+    <!-- Load universal robot description format (URDF) -->
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find hdt_saffir_description)/urdf/hdt_saffir_fixedbase.xacro'"/>
+
+    <!-- load the controllers -->
+    <!-- <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/hdt_saffir" -->
+    <!--       args="joint_state_controller -->
+    <!--             right/joint1_position_controller right/joint2_position_controller -->
+    <!--             right/joint4_position_controller right/joint5_position_controller -->
+    <!--             right/joint6_position_controller right/joint7_position_controller -->
+    <!--             right/thumb_base_position_controller right/thumb_prox_position_controller -->
+    <!--             right/index_prox_position_controller right/ring_prox_position_controller -->
+    <!--             left/joint1_position_controller left/joint2_position_controller -->
+    <!--             left/joint4_position_controller left/joint5_position_controller -->
+    <!--             left/joint6_position_controller left/joint7_position_controller -->
+    <!--             left/thumb_base_position_controller left/thumb_prox_position_controller -->
+    <!--             left/index_prox_position_controller left/ring_prox_position_controller" -->
+    <!--       /> -->
+
+    <!-- convert joint states to TF transforms for rviz, etc -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+          respawn="false" output="screen">
+        <remap from="/joint_states" to="/hdt_saffir/joint_states" />
+    </node>
+
+	<!-- load urdf, start state publishers -->
+	<!-- <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen"/> -->
+    <!-- <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" /> -->
+	<!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="false" output="screen"> -->
+	<!-- 	<param name="use_gui" value="$(arg use_gui)" /> -->
+	<!-- 	<rosparam param="/source_list">[/hdt_adroit_coms/joint_cmd]</rosparam> -->
+	<!-- </node> -->
+
+	<!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
+	<!-- <include file="$(find hdt_saffir_moveit)/launch/move_group.launch"> -->
+	<!-- 	<arg name="allow_trajectory_execution" value="false"/> -->
+	<!-- 	<arg name="fake_execution" value="false"/> -->
+	<!-- </include> -->
+
+	<!-- launch joystick -->
+	<!-- <node name="xbox_joystick" if="$(arg use_joy)" pkg="joy" type="joy_node"> -->
+	<!-- 	<param name="dev" value="/dev/input/js0" /> -->
+	<!-- 	<param name="deadzone" value="0.15" /> -->
+	<!-- </node> -->
+
+	<!-- launch hocu
+	<node name="hocu_driver" pkg="hdt_hocu_driver" type="hocu_driver">
+		<param name="port" value="8766" />
+	</node> -->
+
+    <include file="$(find hdt_adroit_driver)/launch/hdt_adroit_coms.launch">
+        <arg name="arm" value="$(arg arm)" />
+        <arg name="device" value="$(arg device)"/>
+        <arg name="coms_interface" value="$(arg coms_interface)" />
+        <!-- <arg name="ip_address" value="$(arg ip_address)" /> -->
+        <arg name="port" value="8765" />
+        <arg name="impedance_enabled" value="$(arg impedance_enabled)" />
+        <arg name="console_enabled" value="$(arg console_enabled)" />
+        <arg name="default_urdf" value="false" />
+        <arg name="namespace" value="" />
+    </include>
+
+    <!-- <group ns="right/"> -->
+    <!-- <include file="$(find hdt_saffir_control)/launch/one_arm_control.launch"> -->
+    <!--     <arg name="arm" value="right" /> -->
+    <!--     <arg name="device" value="can0" /> -->
+    <!--     <arg name="coms_interface" value="$(arg coms_interface)" /> -->
+    <!--     <arg name="ip_address" value="192.168.1.45" /> -->
+    <!--     <arg name="port" value="8765" /> -->
+    <!--     <arg name="impedance_enabled" value="$(arg impedance_enabled)" /> -->
+    <!--     <arg name="console_enabled" value="false" /> -->
+    <!--     <arg name="default_urdf" value="true" /> -->
+    <!--     <arg name="namespace" value="right/" /> -->
+    <!--     <arg name="use_gazebo" value="$(arg use_gazebo)" /> -->
+    <!-- </include> -->
+    <!-- </group> -->
+
+    <!-- <group ns="left/"> -->
+    <!-- <include file="$(find hdt_saffir_control)/launch/one_arm_control.launch"> -->
+    <!--     <arg name="arm" value="left" /> -->
+    <!--     <arg name="device" value="can1" /> -->
+    <!--     <arg name="coms_interface" value="$(arg coms_interface)" /> -->
+    <!--     <arg name="ip_address" value="192.168.1.45" /> -->
+    <!--     <arg name="port" value="8765" /> -->
+    <!--     <arg name="impedance_enabled" value="$(arg impedance_enabled)" /> -->
+    <!--     <arg name="console_enabled" value="false" /> -->
+    <!--     <arg name="default_urdf" value="true" /> -->
+    <!--     <arg name="namespace" value="left/" /> -->
+    <!--     <arg name="use_gazebo" value="$(arg use_gazebo)" /> -->
+    <!-- </include> -->
+    <!-- </group> -->
+
+	<!-- launch rviz -->
+	<node name="rviz" if="$(arg run_rviz)" pkg="rviz" type="rviz" args="-d $(find hdt_saffir_description)/launch/config.rviz"/>
+
+	<!-- launch arm control node -->
+	<!-- <node name="joint_control" pkg="hdt_saffir_control"  type="joint_control" respawn="false" output="screen"> -->
+	<!-- 	<param name="use_hocu" value="$(arg use_hocu)" /> -->
+	<!-- </node> -->
+</launch>

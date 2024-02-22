@@ -1,0 +1,7 @@
+#goal
+string marker
+geometry_msgs/Pose[] waypoints
+---
+#result
+---
+#feedback

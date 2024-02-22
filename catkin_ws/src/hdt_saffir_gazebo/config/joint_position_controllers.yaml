@@ -1,0 +1,31 @@
+hdt_saffir:
+  hdt_controller:
+    # type: effort_controllers/JointEffortController
+    #type: effort_controllers/JointGroupEffortController
+    type: effort_controllers/JointGroupPositionController
+    # type: position_controllers/JointTrajectoryController
+    joints:
+      # Left      
+      - left/joint1
+      - left/joint2
+      - left/joint3
+      - left/joint4
+      - left/joint5
+      - left/joint6
+      - left/joint7
+      - left/thumb_base
+      - left/thumb_prox
+      - left/index_prox
+      - left/ring_prox
+      # Right
+      - right/joint1
+      - right/joint2
+      - right/joint3
+      - right/joint4
+      - right/joint5
+      - right/joint6
+      - right/joint7
+      - right/thumb_base
+      - right/thumb_prox
+      - right/index_prox
+      - right/ring_prox

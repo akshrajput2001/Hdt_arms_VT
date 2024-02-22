@@ -1,0 +1,60 @@
+##
+## - collada_joint_name : euslisp_joint_name (start with :)
+##
+
+rarm:
+  - right/joint1     : rarm-shoulder-r
+  - right/joint2     : rarm-shoulder-p
+  - right/joint3     : rarm-shoulder-y
+  - right/joint4     : rarm-elbow-p
+  - right/joint5     : rarm-wrist-y
+  - right/joint6     : rarm-wrist-r
+  - right/joint7     : rarm-wrist-p
+  - right/thumb_base : rhand-thumb-base
+  - right/thumb_prox : rhand-thumb-prox
+  - right/index_prox : rhand-index-prox
+  - right/ring_prox  : rhand-ring-prox
+larm:
+  - left/joint1      : larm-shoulder-r
+  - left/joint2      : larm-shoulder-p
+  - left/joint3      : larm-shoulder-y
+  - left/joint4      : larm-elbow-p
+  - left/joint5      : larm-wrist-y
+  - left/joint6      : larm-wrist-r
+  - left/joint7      : larm-wrist-p
+  - left/thumb_base  : lhand-thumb-base
+  - left/thumb_prox  : lhand-thumb-prox
+  - left/index_prox  : lhand-index-prox
+  - left/ring_prox   : lhand-ring-prox
+
+##
+## end-coords
+##
+rarm-end-coords:
+  parent: right/end_effector
+  translate : [0.02, -0.08, 0]
+  rotate    : [0.0, 0.0, 1.0, -90.0]
+larm-end-coords:
+  parent: left/end_effector
+  translate : [-0.02, -0.08, 0]
+  rotate    : [0.0, 0.0, 1.0, -90.0]
+
+##
+## reset-pose
+##
+angle-vector:
+  reset-pose : [0, 0, -90, 0, 0, 0, 0,
+                0, 0, 0, 0,
+                0, 0, 90, 0, 0, 0, 0,
+                0, 0, 0, 0]
+  collision-free-init-pose : [-28, 44, -43, 46, 17, 0, 133,
+                              0, 0, 0, 0,
+                              -28, -44, 43, 46, -17, 0, -133,
+                              0, 0, 0, 0]
+
+##
+## sensors
+##
+# sensors:
+#  - {sensor_name: 'gsensor',   sensor_type: 'acceleration', parent_link: 'BODY', translate: '-0.1015 -0.005 0.0419', rotate: '1 0 0 90'}
+#  - {sensor_name: 'gyrometer', sensor_type: 'gyro', parent_link: 'BODY', translate: '-0.1015 -0.005 0.0419', rotate: '1 0 0 90'}

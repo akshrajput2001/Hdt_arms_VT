@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="hdt_saffir_gazebo" params="namespace">
+    <!-- Links -->
+    <gazebo reference="${namespace}pedestal_link">
+      <material>Gazebo/FlatBlack</material>
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}drive1">
+      <material>Gazebo/Grey</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}drive2">
+      <material>Gazebo/Grey</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}shoulder">
+      <material>Gazebo/Red</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}drive3">
+      <material>Gazebo/FlatBlack</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}tube">
+      <material>Gazebo/Orange</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}drive4">
+      <material>Gazebo/FlatBlack</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}forearm">
+      <material>Gazebo/Orange</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}drive5">
+      <material>Gazebo/Grey</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}drive6">
+      <material>Gazebo/Grey</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}A35">
+      <material>Gazebo/Orange</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}drive7">
+      <material>Gazebo/Grey</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}palm">
+      <material>Gazebo/Orange</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}thumb_base">
+      <material>Gazebo/Orange</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}thumb_prox">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}thumb_med">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}thumb_dist">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}index_prox">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}index_med">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}index_dist">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}ring_prox">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}ring_med">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <gazebo reference="${namespace}ring_dist">
+      <material>Gazebo/White</material>
+      <selfCollide>false</selfCollide>
+    </gazebo>
+    <!-- Joints -->
+    <gazebo reference="${namespace}joint1">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}joint2">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}joint3">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}joint4">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}joint5">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}joint6">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}joint7">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}thumb_base">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}thumb_prox">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}index_prox">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+    <gazebo reference="${namespace}ring_prox">
+      <implicitSpringDamper>1</implicitSpringDamper>
+      <!-- <cfmDamping>1</cfmDamping> -->
+    </gazebo>
+  </xacro:macro>
+</robot>

@@ -1,0 +1,8 @@
+prefix=/home/arl/catkin_ws/devel
+
+Name: hdt_saffir_moveit
+Description: Description of hdt_saffir_moveit
+Version: 0.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

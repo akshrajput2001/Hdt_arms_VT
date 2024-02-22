@@ -1,0 +1,27 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - right/joint1
+      - right/joint2
+      - right/joint3
+      - right/joint4
+      - right/joint5
+      - right/joint6
+      - right/joint7
+      - left/joint1
+      - left/joint2
+      - left/joint3
+      - left/joint4
+      - left/joint5
+      - left/joint6
+      - left/joint7
+  - name: fake_hand_controller
+    joints:
+      - right/index_prox
+      - right/ring_prox
+      - right/thumb_base
+      - right/thumb_prox
+      - left/index_prox
+      - left/ring_prox
+      - left/thumb_base
+      - left/thumb_prox

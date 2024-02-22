@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<robot name="hdt_adroit_drives" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+	<!-- default inertia -->
+	<xacro:macro name="adroit_drive" params="num">
+		<joint name="joint${num}" type="fixed">
+			<hdt id="${num}" kmin="0" kmax="0" inertia="0"/>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<parent link="world"/>
+			<child link="link${num}"/>
+		</joint>
+
+		<link name="link${num}">
+		</link>
+	</xacro:macro>
+
+	<!-- segment 0 -->
+	<link name="world" />
+
+	<!-- drives -->
+	<xacro:adroit_drive num="1" />
+	<xacro:adroit_drive num="2" />
+	<xacro:adroit_drive num="3" />
+	<xacro:adroit_drive num="4" />
+	<xacro:adroit_drive num="5" />
+	<xacro:adroit_drive num="6" />
+	<xacro:adroit_drive num="7" />
+	<xacro:adroit_drive num="8" />
+	<xacro:adroit_drive num="9" />
+	<xacro:adroit_drive num="10" />
+	<xacro:adroit_drive num="11" />
+	<xacro:adroit_drive num="12" />
+	<xacro:adroit_drive num="13" />
+	<xacro:adroit_drive num="14" />
+	<xacro:adroit_drive num="15" />
+	<xacro:adroit_drive num="16" />
+	<xacro:adroit_drive num="17" />
+	<xacro:adroit_drive num="18" />
+	<xacro:adroit_drive num="19" />
+	<xacro:adroit_drive num="20" />
+	<xacro:adroit_drive num="21" />
+	<xacro:adroit_drive num="22" />
+	<xacro:adroit_drive num="23" />
+	<xacro:adroit_drive num="24" />
+	<xacro:adroit_drive num="25" />
+	<xacro:adroit_drive num="26" />
+	<xacro:adroit_drive num="27" />
+	<xacro:adroit_drive num="28" />
+	<xacro:adroit_drive num="29" />
+	<xacro:adroit_drive num="30" />
+	<xacro:adroit_drive num="31" />
+	<xacro:adroit_drive num="32" />
+	<xacro:adroit_drive num="33" />
+	<xacro:adroit_drive num="34" />
+	<xacro:adroit_drive num="35" />
+	<xacro:adroit_drive num="36" />
+	<xacro:adroit_drive num="37" />
+	<xacro:adroit_drive num="38" />
+	<xacro:adroit_drive num="39" />
+	<xacro:adroit_drive num="40" />
+	<xacro:adroit_drive num="41" />
+	<xacro:adroit_drive num="42" />
+	<xacro:adroit_drive num="43" />
+	<xacro:adroit_drive num="44" />
+	<xacro:adroit_drive num="45" />
+	<xacro:adroit_drive num="46" />
+	<xacro:adroit_drive num="47" />
+	<xacro:adroit_drive num="48" />
+	<xacro:adroit_drive num="49" />
+	<xacro:adroit_drive num="50" />
+	<xacro:adroit_drive num="51" />
+	<xacro:adroit_drive num="52" />
+	<xacro:adroit_drive num="53" />
+	<xacro:adroit_drive num="54" />
+	<xacro:adroit_drive num="55" />
+	<xacro:adroit_drive num="56" />
+	<xacro:adroit_drive num="57" />
+	<xacro:adroit_drive num="58" />
+	<xacro:adroit_drive num="59" />
+	<xacro:adroit_drive num="60" />
+	<xacro:adroit_drive num="61" />
+	<xacro:adroit_drive num="62" />
+	<xacro:adroit_drive num="63" />
+	<xacro:adroit_drive num="64" />
+	<xacro:adroit_drive num="65" />
+	<xacro:adroit_drive num="66" />
+	<xacro:adroit_drive num="67" />
+	<xacro:adroit_drive num="68" />
+	<xacro:adroit_drive num="69" />
+	<xacro:adroit_drive num="70" />
+	<xacro:adroit_drive num="71" />
+	<xacro:adroit_drive num="72" />
+	<xacro:adroit_drive num="73" />
+	<xacro:adroit_drive num="74" />
+	<xacro:adroit_drive num="75" />
+	<xacro:adroit_drive num="76" />
+	<xacro:adroit_drive num="77" />
+	<xacro:adroit_drive num="78" />
+	<xacro:adroit_drive num="79" />
+	<xacro:adroit_drive num="80" />
+	<xacro:adroit_drive num="81" />
+	<xacro:adroit_drive num="82" />
+	<xacro:adroit_drive num="83" />
+	<xacro:adroit_drive num="84" />
+	<xacro:adroit_drive num="85" />
+	<xacro:adroit_drive num="86" />
+	<xacro:adroit_drive num="87" />
+	<xacro:adroit_drive num="88" />
+	<xacro:adroit_drive num="89" />
+	<xacro:adroit_drive num="90" />
+	<xacro:adroit_drive num="91" />
+	<xacro:adroit_drive num="92" />
+	<xacro:adroit_drive num="93" />
+	<xacro:adroit_drive num="94" />
+	<xacro:adroit_drive num="95" />
+	<xacro:adroit_drive num="96" />
+	<xacro:adroit_drive num="97" />
+	<xacro:adroit_drive num="98" />
+	<xacro:adroit_drive num="99" />
+	<xacro:adroit_drive num="100" />
+	<xacro:adroit_drive num="100" />
+	<xacro:adroit_drive num="101" />
+	<xacro:adroit_drive num="102" />
+	<xacro:adroit_drive num="103" />
+	<xacro:adroit_drive num="104" />
+	<xacro:adroit_drive num="105" />
+	<xacro:adroit_drive num="106" />
+	<xacro:adroit_drive num="107" />
+	<xacro:adroit_drive num="108" />
+	<xacro:adroit_drive num="109" />
+	<xacro:adroit_drive num="110" />
+	<xacro:adroit_drive num="111" />
+	<xacro:adroit_drive num="112" />
+	<xacro:adroit_drive num="113" />
+	<xacro:adroit_drive num="114" />
+	<xacro:adroit_drive num="115" />
+	<xacro:adroit_drive num="116" />
+	<xacro:adroit_drive num="117" />
+	<xacro:adroit_drive num="118" />
+	<xacro:adroit_drive num="119" />
+	<xacro:adroit_drive num="120" />
+	<xacro:adroit_drive num="121" />
+	<xacro:adroit_drive num="122" />
+	<xacro:adroit_drive num="123" />
+	<xacro:adroit_drive num="124" />
+	<xacro:adroit_drive num="125" />
+	<xacro:adroit_drive num="126" />
+	<xacro:adroit_drive num="127" />
+</robot>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<launch>
+	<param name="use_sim_time" value="false" />
+
+	<!-- arguments -->
+	<arg name="gui" default="false" />
+	<arg name="use_hocu" default="false" />
+	<arg name="arm" default="right" />
+	<arg name="device" default="can0" />
+	<!--
+		argument of coms_interface:
+		loopback for simulation
+		tcpcoms
+		socketcan
+		dualcan
+	-->
+	<arg name="coms_interface" default="loopback" />
+	<arg name="impedance_enabled" default="false" />
+	<arg name="console_enabled" default="true" />
+
+	<!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+	<include file="$(find hdt_saffir_right_moveit)/launch/planning_context.launch">
+		<arg name="load_robot_description" value="true"/>
+	</include>
+
+	<!-- load urdf, start state publishers -->
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+		<param name="use_gui" value="$(arg gui)" />
+		<rosparam param="/source_list">[/hdt_adroit_coms/joint_cmd]</rosparam>
+	</node>
+
+	<!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
+	<include file="$(find hdt_saffir_right_moveit)/launch/move_group.launch">
+		<arg name="allow_trajectory_execution" value="false"/>
+		<arg name="fake_execution" value="false"/>
+	</include>
+
+	<!-- launch joystick -->
+	<node name="xbox_joystick" pkg="joy" type="joy_node">
+		<param name="dev" value="/dev/input/js0" />
+		<param name="deadzone" value="0.15" />
+	</node>
+
+	<!-- launch hocu
+	<node name="hocu_driver" pkg="hdt_hocu_driver" type="hocu_driver">
+		<param name="port" value="8766" />
+	</node> -->
+
+	<!-- launch coms node -->
+	<include file="$(find hdt_adroit_driver)/launch/hdt_adroit_coms.launch">
+		<arg name="arm" value="$(arg arm)" />
+		<arg name="device" value="$(arg device)"/>
+		<arg name="coms_interface" value="$(arg coms_interface)" />
+		<arg name="ip_address" value="192.168.1.45" />
+		<arg name="port" value="8765" />
+		<arg name="impedance_enabled" value="$(arg impedance_enabled)" />
+		<arg name="console_enabled" value="$(arg console_enabled)" />
+	</include>
+
+	<!-- launch rviz -->
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find hdt_saffir_description)/launch/config.rviz"/>
+
+	<!-- launch arm control node -->
+	<node name="joint_control" pkg="hdt_saffir_$(arg arm)_control"  type="joint_control_saf_$(arg arm)" respawn="false" output="screen">
+		<param name="use_hocu" value="$(arg use_hocu)" />
+	</node>
+</launch>
