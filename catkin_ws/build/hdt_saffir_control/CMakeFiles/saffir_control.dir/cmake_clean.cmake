@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/saffir_control.dir/src/arm_control.cpp.o"
   "CMakeFiles/saffir_control.dir/src/control_group.cpp.o"
-  "/home/arl/catkin_ws/devel/lib/hdt_saffir_control/saffir_control.pdb"
-  "/home/arl/catkin_ws/devel/lib/hdt_saffir_control/saffir_control"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_saffir_control/saffir_control.pdb"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_saffir_control/saffir_control"
 )
 
 # Per-language clean rules from dependency scanning.

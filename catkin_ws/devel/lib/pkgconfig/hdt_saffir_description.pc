@@ -1,4 +1,4 @@
-prefix=/home/arl/catkin_ws/devel
+prefix=/home/arl/Hdt_arms_VT/catkin_ws/devel
 
 Name: hdt_saffir_description
 Description: Description of hdt_saffir_description

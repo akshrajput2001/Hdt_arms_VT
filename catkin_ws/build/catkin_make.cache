@@ -1,2 +1,2 @@
 hdt_adroit_driver:hdt_arm_control:hdt_common:hdt_hocu_driver:hdt_saffir_control:hdt_saffir_description:hdt_saffir_gazebo:hdt_saffir_moveit:test1
--DCATKIN_DEVEL_PREFIX=/home/arl/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/arl/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/arl/Hdt_arms_VT/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/arl/Hdt_arms_VT/catkin_ws/install -G Unix Makefiles

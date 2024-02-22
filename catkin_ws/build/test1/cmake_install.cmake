@@ -1,8 +1,8 @@
-# Install script for directory: /home/arl/catkin_ws/src/test1
+# Install script for directory: /home/arl/Hdt_arms_VT/catkin_ws/src/test1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arl/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arl/Hdt_arms_VT/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arl/catkin_ws/build/test1/catkin_generated/installspace/test1.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arl/Hdt_arms_VT/catkin_ws/build/test1/catkin_generated/installspace/test1.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test1/cmake" TYPE FILE FILES
-    "/home/arl/catkin_ws/build/test1/catkin_generated/installspace/test1Config.cmake"
-    "/home/arl/catkin_ws/build/test1/catkin_generated/installspace/test1Config-version.cmake"
+    "/home/arl/Hdt_arms_VT/catkin_ws/build/test1/catkin_generated/installspace/test1Config.cmake"
+    "/home/arl/Hdt_arms_VT/catkin_ws/build/test1/catkin_generated/installspace/test1Config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test1" TYPE FILE FILES "/home/arl/catkin_ws/src/test1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test1" TYPE FILE FILES "/home/arl/Hdt_arms_VT/catkin_ws/src/test1/package.xml")
 endif()
 

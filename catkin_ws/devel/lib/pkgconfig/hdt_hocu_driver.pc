@@ -1,8 +1,8 @@
-prefix=/home/arl/catkin_ws/devel
+prefix=/home/arl/Hdt_arms_VT/catkin_ws/devel
 
 Name: hdt_hocu_driver
 Description: Description of hdt_hocu_driver
 Version: 0.0.0
-Cflags: -I/home/arl/catkin_ws/devel/include -I/home/arl/catkin_ws/src/hdt_hocu_driver/include -I/usr/include
+Cflags: -I/home/arl/Hdt_arms_VT/catkin_ws/devel/include -I/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/include -I/usr/include
 Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libtinyxml.so
 Requires: roscpp rospy std_msgs sensor_msgs hdt_common

@@ -2,7 +2,7 @@
 
 message(STATUS "hdt_hocu_driver: 5 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,29 +17,29 @@ add_custom_target(hdt_hocu_driver_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
 add_custom_target(_hdt_hocu_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
 add_custom_target(_hdt_hocu_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
 add_custom_target(_hdt_hocu_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
 add_custom_target(_hdt_hocu_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
 add_custom_target(_hdt_hocu_driver_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hdt_hocu_driver" "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" "std_msgs/Header"
 )
 
 #
@@ -49,31 +49,31 @@ add_custom_target(_hdt_hocu_driver_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_cpp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_cpp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_cpp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_cpp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hdt_hocu_driver
@@ -93,15 +93,15 @@ add_custom_target(hdt_hocu_driver_generate_messages_cpp
 add_dependencies(hdt_hocu_driver_generate_messages hdt_hocu_driver_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_cpp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_cpp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_cpp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_cpp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_cpp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -114,31 +114,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hdt_hocu_driver_generate_messages_c
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_eus(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_eus(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_eus(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_eus(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hdt_hocu_driver
@@ -158,15 +158,15 @@ add_custom_target(hdt_hocu_driver_generate_messages_eus
 add_dependencies(hdt_hocu_driver_generate_messages hdt_hocu_driver_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_eus _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_eus _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_eus _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_eus _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_eus _hdt_hocu_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -179,31 +179,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hdt_hocu_driver_generate_messages_e
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_lisp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_lisp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_lisp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_lisp(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hdt_hocu_driver
@@ -223,15 +223,15 @@ add_custom_target(hdt_hocu_driver_generate_messages_lisp
 add_dependencies(hdt_hocu_driver_generate_messages hdt_hocu_driver_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_lisp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_lisp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_lisp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_lisp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_lisp _hdt_hocu_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -244,31 +244,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hdt_hocu_driver_generate_messages_l
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_nodejs(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_nodejs(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_nodejs(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_nodejs(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hdt_hocu_driver
@@ -288,15 +288,15 @@ add_custom_target(hdt_hocu_driver_generate_messages_nodejs
 add_dependencies(hdt_hocu_driver_generate_messages hdt_hocu_driver_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_nodejs _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_nodejs _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_nodejs _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_nodejs _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_nodejs _hdt_hocu_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -309,31 +309,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS hdt_hocu_driver_generate_messages_n
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_py(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_py(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_py(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hdt_hocu_driver
 )
 _generate_msg_py(hdt_hocu_driver
-  "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
+  "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hdt_hocu_driver
@@ -353,15 +353,15 @@ add_custom_target(hdt_hocu_driver_generate_messages_py
 add_dependencies(hdt_hocu_driver_generate_messages hdt_hocu_driver_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_py _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_py _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_py _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_py _hdt_hocu_driver_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
+get_filename_component(_filename "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg" NAME_WE)
 add_dependencies(hdt_hocu_driver_generate_messages_py _hdt_hocu_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

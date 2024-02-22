@@ -1,4 +1,4 @@
-prefix=/home/arl/catkin_ws/install
+prefix=/home/arl/Hdt_arms_VT/catkin_ws/install
 
 Name: hdt_saffir_control
 Description: Description of hdt_saffir_control

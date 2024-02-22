@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/joint_control.dir/src/joint_control.cpp.o"
-  "/home/arl/catkin_ws/devel/lib/hdt_saffir_control/joint_control.pdb"
-  "/home/arl/catkin_ws/devel/lib/hdt_saffir_control/joint_control"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_saffir_control/joint_control.pdb"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_saffir_control/joint_control"
 )
 
 # Per-language clean rules from dependency scanning.

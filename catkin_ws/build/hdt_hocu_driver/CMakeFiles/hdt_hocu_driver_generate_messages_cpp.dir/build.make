@@ -43,64 +43,64 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arl/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/arl/Hdt_arms_VT/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arl/catkin_ws/build
+CMAKE_BINARY_DIR = /home/arl/Hdt_arms_VT/catkin_ws/build
 
 # Utility rule file for hdt_hocu_driver_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/progress.make
 
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h
 
 
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hdt_hocu_driver/SetPageColumn.msg"
-	cd /home/arl/catkin_ws/src/hdt_hocu_driver && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hdt_hocu_driver/SetPageColumn.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hdt_hocu_driver/WriteString.msg"
-	cd /home/arl/catkin_ws/src/hdt_hocu_driver && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hdt_hocu_driver/WriteString.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hdt_hocu_driver/ClearScreen.msg"
-	cd /home/arl/catkin_ws/src/hdt_hocu_driver && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hdt_hocu_driver/ClearScreen.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hdt_hocu_driver/UpdateScreen.msg"
-	cd /home/arl/catkin_ws/src/hdt_hocu_driver && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hdt_hocu_driver/UpdateScreen.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hdt_hocu_driver/SetFont.msg"
-	cd /home/arl/catkin_ws/src/hdt_hocu_driver && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hdt_hocu_driver/SetFont.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 hdt_hocu_driver_generate_messages_cpp: hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp
-hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h
-hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h
-hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h
-hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h
-hdt_hocu_driver_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h
+hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetPageColumn.h
+hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/WriteString.h
+hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/ClearScreen.h
+hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/UpdateScreen.h
+hdt_hocu_driver_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_hocu_driver/SetFont.h
 hdt_hocu_driver_generate_messages_cpp: hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/build.make
 
 .PHONY : hdt_hocu_driver_generate_messages_cpp
@@ -111,10 +111,10 @@ hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/build: hdt_
 .PHONY : hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/build
 
 hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/clean:
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/clean
 
 hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/depend:
-	cd /home/arl/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/catkin_ws/src /home/arl/catkin_ws/src/hdt_hocu_driver /home/arl/catkin_ws/build /home/arl/catkin_ws/build/hdt_hocu_driver /home/arl/catkin_ws/build/hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/Hdt_arms_VT/catkin_ws/src /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver /home/arl/Hdt_arms_VT/catkin_ws/build /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_cpp.dir/depend
 

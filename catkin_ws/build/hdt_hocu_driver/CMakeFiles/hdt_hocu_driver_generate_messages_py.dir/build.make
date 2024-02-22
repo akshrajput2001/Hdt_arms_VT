@@ -43,70 +43,70 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arl/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/arl/Hdt_arms_VT/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arl/catkin_ws/build
+CMAKE_BINARY_DIR = /home/arl/Hdt_arms_VT/catkin_ws/build
 
 # Utility rule file for hdt_hocu_driver_generate_messages_py.
 
 # Include the progress variables for this target.
 include hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/progress.make
 
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py
-hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py
+hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py
 
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG hdt_hocu_driver/SetPageColumn"
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG hdt_hocu_driver/SetPageColumn"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetPageColumn.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG hdt_hocu_driver/WriteString"
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG hdt_hocu_driver/WriteString"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/WriteString.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG hdt_hocu_driver/ClearScreen"
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG hdt_hocu_driver/ClearScreen"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/ClearScreen.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG hdt_hocu_driver/UpdateScreen"
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG hdt_hocu_driver/UpdateScreen"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/UpdateScreen.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py: /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG hdt_hocu_driver/SetFont"
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg -Ihdt_hocu_driver:/home/arl/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG hdt_hocu_driver/SetFont"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg/SetFont.msg -Ihdt_hocu_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p hdt_hocu_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for hdt_hocu_driver"
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg --initpy
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for hdt_hocu_driver"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg --initpy
 
 hdt_hocu_driver_generate_messages_py: hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py
-hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py
-hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py
-hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py
-hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py
-hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py
-hdt_hocu_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py
+hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py
+hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py
+hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py
+hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py
+hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py
+hdt_hocu_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py
 hdt_hocu_driver_generate_messages_py: hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/build.make
 
 .PHONY : hdt_hocu_driver_generate_messages_py
@@ -117,10 +117,10 @@ hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/build: hdt_h
 .PHONY : hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/build
 
 hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/clean:
-	cd /home/arl/catkin_ws/build/hdt_hocu_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/clean
 
 hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/depend:
-	cd /home/arl/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/catkin_ws/src /home/arl/catkin_ws/src/hdt_hocu_driver /home/arl/catkin_ws/build /home/arl/catkin_ws/build/hdt_hocu_driver /home/arl/catkin_ws/build/hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/Hdt_arms_VT/catkin_ws/src /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver /home/arl/Hdt_arms_VT/catkin_ws/build /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hdt_hocu_driver/CMakeFiles/hdt_hocu_driver_generate_messages_py.dir/depend
 

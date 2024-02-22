@@ -67,14 +67,14 @@ set(hdt_saffir_control_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hdt_saffir_control_SOURCE_PREFIX /home/arl/catkin_ws/src/hdt_saffir_control)
-  set(hdt_saffir_control_DEVEL_PREFIX /home/arl/catkin_ws/devel)
+  set(hdt_saffir_control_SOURCE_PREFIX /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control)
+  set(hdt_saffir_control_DEVEL_PREFIX /home/arl/Hdt_arms_VT/catkin_ws/devel)
   set(hdt_saffir_control_INSTALL_PREFIX "")
   set(hdt_saffir_control_PREFIX ${hdt_saffir_control_DEVEL_PREFIX})
 else()
   set(hdt_saffir_control_SOURCE_PREFIX "")
   set(hdt_saffir_control_DEVEL_PREFIX "")
-  set(hdt_saffir_control_INSTALL_PREFIX /home/arl/catkin_ws/install)
+  set(hdt_saffir_control_INSTALL_PREFIX /home/arl/Hdt_arms_VT/catkin_ws/install)
   set(hdt_saffir_control_PREFIX ${hdt_saffir_control_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/arl/catkin_ws/install/lib;/home/arl/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/arl/Hdt_arms_VT/catkin_ws/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

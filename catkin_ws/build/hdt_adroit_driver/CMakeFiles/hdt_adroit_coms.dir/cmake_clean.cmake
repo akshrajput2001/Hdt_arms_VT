@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o"
   "CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o"
   "CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o"
-  "/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms.pdb"
-  "/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms.pdb"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms"
 )
 
 # Per-language clean rules from dependency scanning.

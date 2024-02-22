@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"hdt_arm_control\"
 
-CXX_INCLUDES = -I/home/arl/catkin_ws/devel/include -I/home/arl/catkin_ws/src/hdt_arm_control/include/hdt_arm_control -I/home/arl/catkin_ws/src/hdt_adroit_driver/include -I/home/arl/catkin_ws/src/hdt_common/include -I/home/arl/catkin_ws/src/hdt_hocu_driver/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/share/orocos_kdl/../../include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/arl/Hdt_arms_VT/catkin_ws/devel/include -I/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_arm_control/include/hdt_arm_control -I/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/include -I/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_common/include -I/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_hocu_driver/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/share/orocos_kdl/../../include -I/usr/include/eigen3 
 

@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hdt_hocu_driver_generate_messages_py"
-  "/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py"
-  "/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py"
-  "/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py"
-  "/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py"
-  "/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py"
-  "/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetPageColumn.py"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_WriteString.py"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_ClearScreen.py"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_UpdateScreen.py"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/_SetFont.py"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_hocu_driver/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

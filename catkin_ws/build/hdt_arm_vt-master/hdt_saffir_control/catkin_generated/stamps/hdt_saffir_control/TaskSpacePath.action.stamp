@@ -1,7 +1,0 @@
-#goal
-string marker
-geometry_msgs/Pose pose
----
-#result
----
-#feedback

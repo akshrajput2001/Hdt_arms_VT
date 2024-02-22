@@ -15,8 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hdt_common.dir/src/SerialInterface.cpp.o"
   "CMakeFiles/hdt_common.dir/src/TcpInterface.cpp.o"
   "CMakeFiles/hdt_common.dir/src/SlipProtocol.cpp.o"
-  "/home/arl/catkin_ws/devel/lib/libhdt_common.pdb"
-  "/home/arl/catkin_ws/devel/lib/libhdt_common.so"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/libhdt_common.pdb"
+  "/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/libhdt_common.so"
 )
 
 # Per-language clean rules from dependency scanning.

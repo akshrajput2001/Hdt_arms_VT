@@ -1,8 +1,0 @@
-prefix=/home/arl/catkin_ws/install
-
-Name: hdt_common
-Description: Description of hdt_common
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lhdt_common
-Requires: roscpp rospy std_msgs

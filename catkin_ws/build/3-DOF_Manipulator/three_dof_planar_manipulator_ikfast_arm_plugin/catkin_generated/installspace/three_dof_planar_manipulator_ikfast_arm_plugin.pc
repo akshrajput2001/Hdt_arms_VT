@@ -1,8 +1,0 @@
-prefix=/home/arl/catkin_ws/install
-
-Name: three_dof_planar_manipulator_ikfast_arm_plugin
-Description: Description of three_dof_planar_manipulator_ikfast_arm_plugin
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: moveit_core pluginlib roscpp tf_conversions

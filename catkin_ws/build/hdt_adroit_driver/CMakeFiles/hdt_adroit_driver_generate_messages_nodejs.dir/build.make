@@ -43,134 +43,134 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arl/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/arl/Hdt_arms_VT/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arl/catkin_ws/build
+CMAKE_BINARY_DIR = /home/arl/Hdt_arms_VT/catkin_ws/build
 
 # Utility rule file for hdt_adroit_driver_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/progress.make
 
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js
 
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hdt_adroit_driver/HDTParameterTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hdt_adroit_driver/HDTParameterTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hdt_adroit_driver/HDTStatusTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hdt_adroit_driver/HDTStatusTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hdt_adroit_driver/HDTDebugTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hdt_adroit_driver/HDTDebugTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hdt_adroit_driver/HDTLSTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hdt_adroit_driver/HDTErrorTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hdt_adroit_driver/HDTControlCmdTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hdt_adroit_driver/HDTLSTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from hdt_adroit_driver/HDTMSTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from hdt_adroit_driver/HDTJointState.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from hdt_adroit_driver/HDTHSTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from hdt_adroit_driver/HDTMSTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from hdt_adroit_driver/HDTJointState.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from hdt_adroit_driver/HDTHSTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from hdt_adroit_driver/HDTErrorTelem.msg"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from hdt_adroit_driver/HDTControlCmdTelem.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from hdt_adroit_driver/StateSelect.srv"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from hdt_adroit_driver/StateSelect.srv"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from hdt_adroit_driver/ReadDriveParam.srv"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from hdt_adroit_driver/AppLoad.srv"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from hdt_adroit_driver/GetStatus.srv"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from hdt_adroit_driver/WriteDriveParam.srv"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /opt/ros/kinetic/share/sensor_msgs/msg/JointState.msg
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from hdt_adroit_driver/ComsReady.srv"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /opt/ros/kinetic/share/sensor_msgs/msg/JointState.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from hdt_adroit_driver/ComsReady.srv"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from hdt_adroit_driver/Commit.srv"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from hdt_adroit_driver/ReadDriveParam.srv"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from hdt_adroit_driver/AppLoad.srv"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from hdt_adroit_driver/Commit.srv"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from hdt_adroit_driver/WriteDriveParam.srv"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from hdt_adroit_driver/GetStatus.srv"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv
 
 hdt_adroit_driver_generate_messages_nodejs: hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js
-hdt_adroit_driver_generate_messages_nodejs: /home/arl/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTParameterTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTStatusTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTDebugTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTErrorTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTLSTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTJointState.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTMSTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTHSTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/msg/HDTControlCmdTelem.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/StateSelect.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/AppLoad.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/WriteDriveParam.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ComsReady.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/ReadDriveParam.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/Commit.js
+hdt_adroit_driver_generate_messages_nodejs: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/gennodejs/ros/hdt_adroit_driver/srv/GetStatus.js
 hdt_adroit_driver_generate_messages_nodejs: hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/build.make
 
 .PHONY : hdt_adroit_driver_generate_messages_nodejs
@@ -181,10 +181,10 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/buil
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/build
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/clean:
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/clean
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/depend:
-	cd /home/arl/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/catkin_ws/src /home/arl/catkin_ws/src/hdt_adroit_driver /home/arl/catkin_ws/build /home/arl/catkin_ws/build/hdt_adroit_driver /home/arl/catkin_ws/build/hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/Hdt_arms_VT/catkin_ws/src /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver /home/arl/Hdt_arms_VT/catkin_ws/build /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_nodejs.dir/depend
 

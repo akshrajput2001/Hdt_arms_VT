@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arl/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/arl/Hdt_arms_VT/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arl/catkin_ws/build
+CMAKE_BINARY_DIR = /home/arl/Hdt_arms_VT/catkin_ws/build
 
 # Utility rule file for octomap_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build: octo
 .PHONY : hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
 
 hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/arl/catkin_ws/build/hdt_arm_control && $(CMAKE_COMMAND) -P CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_arm_control && $(CMAKE_COMMAND) -P CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/clean
 
 hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/arl/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/catkin_ws/src /home/arl/catkin_ws/src/hdt_arm_control /home/arl/catkin_ws/build /home/arl/catkin_ws/build/hdt_arm_control /home/arl/catkin_ws/build/hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/Hdt_arms_VT/catkin_ws/src /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_arm_control /home/arl/Hdt_arms_VT/catkin_ws/build /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_arm_control /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hdt_arm_control/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/depend
 

@@ -1,2 +1,0 @@
-set(hdt_adroit_driver_MESSAGE_FILES "msg/HDTJointState.msg;msg/HDTDebugTelem.msg;msg/HDTLSTelem.msg;msg/HDTMSTelem.msg;msg/HDTHSTelem.msg;msg/HDTErrorTelem.msg;msg/HDTParameterTelem.msg;msg/HDTStatusTelem.msg;msg/HDTControlCmdTelem.msg")
-set(hdt_adroit_driver_SERVICE_FILES "srv/ComsReady.srv;srv/WriteDriveParam.srv;srv/ReadDriveParam.srv;srv/AppLoad.srv;srv/StateSelect.srv;srv/GetStatus.srv;srv/Commit.srv")

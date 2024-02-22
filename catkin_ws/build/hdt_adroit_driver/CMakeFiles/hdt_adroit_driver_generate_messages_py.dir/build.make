@@ -43,178 +43,178 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arl/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/arl/Hdt_arms_VT/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arl/catkin_ws/build
+CMAKE_BINARY_DIR = /home/arl/Hdt_arms_VT/catkin_ws/build
 
 # Utility rule file for hdt_adroit_driver_generate_messages_py.
 
 # Include the progress variables for this target.
 include hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/progress.make
 
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py
-hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py
+hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py
 
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG hdt_adroit_driver/HDTParameterTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG hdt_adroit_driver/HDTParameterTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTParameterTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG hdt_adroit_driver/HDTStatusTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG hdt_adroit_driver/HDTStatusTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTStatusTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG hdt_adroit_driver/HDTDebugTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG hdt_adroit_driver/HDTDebugTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTDebugTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG hdt_adroit_driver/HDTLSTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG hdt_adroit_driver/HDTErrorTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG hdt_adroit_driver/HDTControlCmdTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG hdt_adroit_driver/HDTLSTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTLSTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG hdt_adroit_driver/HDTMSTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG hdt_adroit_driver/HDTJointState"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG hdt_adroit_driver/HDTHSTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG hdt_adroit_driver/HDTMSTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTMSTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG hdt_adroit_driver/HDTJointState"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTJointState.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG hdt_adroit_driver/HDTHSTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTHSTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py: /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG hdt_adroit_driver/HDTErrorTelem"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/msg/HDTErrorTelem.msg -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG hdt_adroit_driver/HDTControlCmdTelem"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg/HDTControlCmdTelem.msg -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV hdt_adroit_driver/StateSelect"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV hdt_adroit_driver/StateSelect"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/StateSelect.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python code from SRV hdt_adroit_driver/ReadDriveParam"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python code from SRV hdt_adroit_driver/AppLoad"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python code from SRV hdt_adroit_driver/GetStatus"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python code from SRV hdt_adroit_driver/WriteDriveParam"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /opt/ros/kinetic/share/sensor_msgs/msg/JointState.msg
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python code from SRV hdt_adroit_driver/ComsReady"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /opt/ros/kinetic/share/sensor_msgs/msg/JointState.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python code from SRV hdt_adroit_driver/ComsReady"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ComsReady.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python code from SRV hdt_adroit_driver/Commit"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python code from SRV hdt_adroit_driver/ReadDriveParam"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/ReadDriveParam.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python code from SRV hdt_adroit_driver/AppLoad"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/AppLoad.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python code from SRV hdt_adroit_driver/Commit"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/Commit.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py: /home/arl/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python code from SRV hdt_adroit_driver/WriteDriveParam"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/catkin_ws/src/hdt_adroit_driver/srv/WriteDriveParam.srv -Ihdt_adroit_driver:/home/arl/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python code from SRV hdt_adroit_driver/GetStatus"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/srv/GetStatus.srv -Ihdt_adroit_driver:/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p hdt_adroit_driver -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python msg __init__.py for hdt_adroit_driver"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg --initpy
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python msg __init__.py for hdt_adroit_driver"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg --initpy
 
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
-/home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python srv __init__.py for hdt_adroit_driver"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv --initpy
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python srv __init__.py for hdt_adroit_driver"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv --initpy
 
 hdt_adroit_driver_generate_messages_py: hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py
-hdt_adroit_driver_generate_messages_py: /home/arl/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTParameterTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTStatusTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTDebugTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTErrorTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTLSTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTJointState.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTMSTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTHSTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/_HDTControlCmdTelem.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_StateSelect.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_AppLoad.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_WriteDriveParam.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ComsReady.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_ReadDriveParam.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_Commit.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/_GetStatus.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/msg/__init__.py
+hdt_adroit_driver_generate_messages_py: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/python2.7/dist-packages/hdt_adroit_driver/srv/__init__.py
 hdt_adroit_driver_generate_messages_py: hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/build.make
 
 .PHONY : hdt_adroit_driver_generate_messages_py
@@ -225,10 +225,10 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/build: h
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/build
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/clean:
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/clean
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/depend:
-	cd /home/arl/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/catkin_ws/src /home/arl/catkin_ws/src/hdt_adroit_driver /home/arl/catkin_ws/build /home/arl/catkin_ws/build/hdt_adroit_driver /home/arl/catkin_ws/build/hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/Hdt_arms_VT/catkin_ws/src /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver /home/arl/Hdt_arms_VT/catkin_ws/build /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_driver_generate_messages_py.dir/depend
 

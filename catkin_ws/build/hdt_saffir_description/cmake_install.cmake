@@ -1,8 +1,8 @@
-# Install script for directory: /home/arl/catkin_ws/src/hdt_saffir_description
+# Install script for directory: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arl/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arl/Hdt_arms_VT/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arl/catkin_ws/build/hdt_saffir_description/catkin_generated/installspace/hdt_saffir_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arl/Hdt_arms_VT/catkin_ws/build/hdt_saffir_description/catkin_generated/installspace/hdt_saffir_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hdt_saffir_description/cmake" TYPE FILE FILES
-    "/home/arl/catkin_ws/build/hdt_saffir_description/catkin_generated/installspace/hdt_saffir_descriptionConfig.cmake"
-    "/home/arl/catkin_ws/build/hdt_saffir_description/catkin_generated/installspace/hdt_saffir_descriptionConfig-version.cmake"
+    "/home/arl/Hdt_arms_VT/catkin_ws/build/hdt_saffir_description/catkin_generated/installspace/hdt_saffir_descriptionConfig.cmake"
+    "/home/arl/Hdt_arms_VT/catkin_ws/build/hdt_saffir_description/catkin_generated/installspace/hdt_saffir_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hdt_saffir_description" TYPE FILE FILES "/home/arl/catkin_ws/src/hdt_saffir_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hdt_saffir_description" TYPE FILE FILES "/home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_description/package.xml")
 endif()
 

@@ -1,8 +1,0 @@
-prefix=/home/arl/catkin_ws/install
-
-Name: three_dof_planar_manipulator_moveit_config
-Description: Description of three_dof_planar_manipulator_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

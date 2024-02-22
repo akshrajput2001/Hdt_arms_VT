@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arl/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/arl/Hdt_arms_VT/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arl/catkin_ws/build
+CMAKE_BINARY_DIR = /home/arl/Hdt_arms_VT/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/depend.make
@@ -58,17 +58,17 @@ include hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/progress.make
 include hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o: /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o -c /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o -c /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.i"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.i
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.i
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.s"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.s
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_coms.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.s
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o.requires:
 
@@ -82,17 +82,17 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o.provi
 
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o: /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o -c /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o -c /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.i"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.i
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.i
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.s"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.s
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_console.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.s
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o.requires:
 
@@ -106,17 +106,17 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o.pr
 
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o: /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o -c /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o -c /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.i"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.i
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.i
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.s"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.s
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_adroit_driver.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.s
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o.requires:
 
@@ -130,17 +130,17 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o.pro
 
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o: /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o -c /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o -c /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.i"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.i
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.i
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.s"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.s
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_loopback_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.s
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o.requires:
 
@@ -154,17 +154,17 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.
 
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o: /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o -c /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o -c /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.i"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.i
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.i
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.s"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.s
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_tcpcoms_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.s
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o.requires:
 
@@ -178,17 +178,17 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o
 
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o: /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o -c /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o -c /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.i"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.i
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.i
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.s"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.s
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_socketcan_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.s
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o.requires:
 
@@ -202,17 +202,17 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp
 
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/flags.make
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o: /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o -c /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o: /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o -c /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.i"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.i
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp > CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.i
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.s"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.s
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver/src/hdt_dualcan_interface.cpp -o CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.s
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o.requires:
 
@@ -238,43 +238,43 @@ hdt_adroit_coms_OBJECTS = \
 # External object files for target hdt_adroit_coms
 hdt_adroit_coms_EXTERNAL_OBJECTS =
 
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/build.make
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libsocketcan_interface_string.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /home/arl/catkin_ws/devel/lib/libhdt_common.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libroscpp.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librosconsole.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librostime.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libcpp_common.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /home/arl/catkin_ws/devel/lib/libhdt_adroit.so
-/home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms"
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hdt_adroit_coms.dir/link.txt --verbose=$(VERBOSE)
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_coms.cpp.o
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_console.cpp.o
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_adroit_driver.cpp.o
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_loopback_interface.cpp.o
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_tcpcoms_interface.cpp.o
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_socketcan_interface.cpp.o
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/src/hdt_dualcan_interface.cpp.o
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/build.make
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libsocketcan_interface_string.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/libhdt_common.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libroscpp.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librosconsole.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/librostime.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /opt/ros/kinetic/lib/libcpp_common.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/libhdt_adroit.so
+/home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms: hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hdt_adroit_coms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/build: /home/arl/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms
+hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/build: /home/arl/Hdt_arms_VT/catkin_ws/devel/lib/hdt_adroit_driver/hdt_adroit_coms
 
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/build
 
@@ -289,10 +289,10 @@ hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/requires: hdt_adroit_driver/CMa
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/requires
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/clean:
-	cd /home/arl/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_adroit_coms.dir/cmake_clean.cmake
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver && $(CMAKE_COMMAND) -P CMakeFiles/hdt_adroit_coms.dir/cmake_clean.cmake
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/clean
 
 hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/depend:
-	cd /home/arl/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/catkin_ws/src /home/arl/catkin_ws/src/hdt_adroit_driver /home/arl/catkin_ws/build /home/arl/catkin_ws/build/hdt_adroit_driver /home/arl/catkin_ws/build/hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/Hdt_arms_VT/catkin_ws/src /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_adroit_driver /home/arl/Hdt_arms_VT/catkin_ws/build /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hdt_adroit_driver/CMakeFiles/hdt_adroit_coms.dir/depend
 

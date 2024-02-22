@@ -43,265 +43,265 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arl/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/arl/Hdt_arms_VT/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arl/catkin_ws/build
+CMAKE_BINARY_DIR = /home/arl/Hdt_arms_VT/catkin_ws/build
 
 # Utility rule file for hdt_saffir_control_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/progress.make
 
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h
-hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h
+hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h
 
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hdt_saffir_control/JointSpacePathFeedback.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hdt_saffir_control/TrajectoryPathFeedback.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hdt_saffir_control/TaskSpacePathResult.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hdt_saffir_control/TaskSpacePathResult.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hdt_saffir_control/TrajectoryPathActionGoal.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionGoal.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hdt_saffir_control/TaskSpacePathGoal.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hdt_saffir_control/JointSpacePathResult.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hdt_saffir_control/TaskSpacePathActionFeedback.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionFeedback.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hdt_saffir_control/TaskSpacePathGoal.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathAction.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hdt_saffir_control/JointSpacePathAction.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathAction.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from hdt_saffir_control/JointSpacePathActionResult.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionResult.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from hdt_saffir_control/JointSpacePathResult.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathAction.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from hdt_saffir_control/TaskSpacePathAction.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathAction.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from hdt_saffir_control/TrajectoryPathActionFeedback.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionFeedback.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from hdt_saffir_control/JointSpacePathActionGoal.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionGoal.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from hdt_saffir_control/JointSpacePathFeedback.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from hdt_saffir_control/TrajectoryPathResult.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from hdt_saffir_control/JointSpacePathActionResult.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionResult.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from hdt_saffir_control/JointSpacePathActionFeedback.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionFeedback.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from hdt_saffir_control/TaskSpacePathFeedback.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from hdt_saffir_control/TaskSpacePathActionGoal.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionGoal.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from hdt_saffir_control/TrajectoryPathResult.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from hdt_saffir_control/TrajectoryPathFeedback.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from hdt_saffir_control/JointSpacePathGoal.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from hdt_saffir_control/TrajectoryPathActionResult.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionResult.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from hdt_saffir_control/TrajectoryPathGoal.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathAction.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from hdt_saffir_control/TrajectoryPathAction.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathAction.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from hdt_saffir_control/TaskSpacePathActionGoal.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionGoal.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from hdt_saffir_control/TaskSpacePathActionFeedback.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionFeedback.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from hdt_saffir_control/TrajectoryPathActionResult.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionResult.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from hdt_saffir_control/TaskSpacePathActionResult.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionResult.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from hdt_saffir_control/JointSpacePathActionFeedback.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionFeedback.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from hdt_saffir_control/TrajectoryPathActionFeedback.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionFeedback.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from hdt_saffir_control/TrajectoryPathActionGoal.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionGoal.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from hdt_saffir_control/JointSpacePathGoal.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathAction.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathActionGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from hdt_saffir_control/TrajectoryPathAction.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathAction.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from hdt_saffir_control/TrajectoryPathGoal.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TrajectoryPathGoal.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from hdt_saffir_control/TaskSpacePathActionResult.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionResult.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathAction.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionResult.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionGoal.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from hdt_saffir_control/JointSpacePathAction.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathAction.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathAction.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathResult.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathActionFeedback.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from hdt_saffir_control/TaskSpacePathAction.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathAction.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h: /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg
-/home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from hdt_saffir_control/TaskSpacePathFeedback.msg"
-	cd /home/arl/catkin_ws/src/hdt_saffir_control && /home/arl/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/catkin_ws/devel/share/hdt_saffir_control/msg/TaskSpacePathFeedback.msg -Ihdt_saffir_control:/home/arl/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/share/actionlib_msgs/msg/GoalID.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathGoal.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/arl/Hdt_arms_VT/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from hdt_saffir_control/JointSpacePathActionGoal.msg"
+	cd /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control && /home/arl/Hdt_arms_VT/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg/JointSpacePathActionGoal.msg -Ihdt_saffir_control:/home/arl/Hdt_arms_VT/catkin_ws/devel/share/hdt_saffir_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hdt_saffir_control -o /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 hdt_saffir_control_generate_messages_cpp: hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h
-hdt_saffir_control_generate_messages_cpp: /home/arl/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathFeedback.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathResult.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathGoal.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionFeedback.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathAction.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathResult.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionFeedback.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathFeedback.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionResult.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathFeedback.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathResult.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathGoal.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathGoal.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionGoal.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionResult.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionFeedback.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathActionGoal.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TrajectoryPathAction.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathActionResult.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/TaskSpacePathAction.h
+hdt_saffir_control_generate_messages_cpp: /home/arl/Hdt_arms_VT/catkin_ws/devel/include/hdt_saffir_control/JointSpacePathActionGoal.h
 hdt_saffir_control_generate_messages_cpp: hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/build.make
 
 .PHONY : hdt_saffir_control_generate_messages_cpp
@@ -312,10 +312,10 @@ hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/build
 .PHONY : hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/build
 
 hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/clean:
-	cd /home/arl/catkin_ws/build/hdt_saffir_control && $(CMAKE_COMMAND) -P CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_saffir_control && $(CMAKE_COMMAND) -P CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/clean
 
 hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/depend:
-	cd /home/arl/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/catkin_ws/src /home/arl/catkin_ws/src/hdt_saffir_control /home/arl/catkin_ws/build /home/arl/catkin_ws/build/hdt_saffir_control /home/arl/catkin_ws/build/hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arl/Hdt_arms_VT/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arl/Hdt_arms_VT/catkin_ws/src /home/arl/Hdt_arms_VT/catkin_ws/src/hdt_saffir_control /home/arl/Hdt_arms_VT/catkin_ws/build /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_saffir_control /home/arl/Hdt_arms_VT/catkin_ws/build/hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hdt_saffir_control/CMakeFiles/hdt_saffir_control_generate_messages_cpp.dir/depend
 
