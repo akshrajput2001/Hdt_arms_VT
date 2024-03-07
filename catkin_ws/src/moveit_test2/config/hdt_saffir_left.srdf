@@ -1,0 +1,231 @@
+<?xml version="1.0" ?>
+<!--This does not replace URDF, and is not an extension of URDF.
+    This is a format for representing semantic information about the robot structure.
+    A URDF file must exist for this robot as well, where the joints and the links that are referenced are defined
+-->
+<robot name="hdt_saffir_left">
+    <!--GROUPS: Representation of a set of joints and links. This can be useful for specifying DOF to plan for, defining arms, end effectors, etc-->
+    <!--LINKS: When a link is specified, the parent joint of that link (if it exists) is automatically included-->
+    <!--JOINTS: When a joint is specified, the child link of that joint (which will always exist) is automatically included-->
+    <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
+    <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
+    <group name="arm">
+        <chain base_link="drive1" tip_link="endpoint_link" />
+    </group>
+    <group name="hand">
+        <joint name="thumb_base" />
+        <joint name="thumb_prox" />
+        <joint name="ring_prox" />
+        <joint name="index_prox" />
+    </group>
+    <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
+    <group_state name="home" group="arm">
+        <joint name="joint1" value="0" />
+        <joint name="joint2" value="0" />
+        <joint name="joint3" value="0" />
+        <joint name="joint4" value="0" />
+        <joint name="joint5" value="0" />
+        <joint name="joint6" value="0" />
+        <joint name="joint7" value="0" />
+    </group_state>
+    <group_state name="hand_home" group="hand">
+        <joint name="index_prox" value="0" />
+        <joint name="ring_prox" value="0" />
+        <joint name="thumb_base" value="0" />
+        <joint name="thumb_prox" value="0" />
+    </group_state>
+    <group_state name="pose1" group="arm">
+        <joint name="joint1" value="-0.8631" />
+        <joint name="joint2" value="-0.8122" />
+        <joint name="joint3" value="-0.6214" />
+        <joint name="joint4" value="0" />
+        <joint name="joint5" value="-0.5178" />
+        <joint name="joint6" value="-0.4488" />
+        <joint name="joint7" value="-0.25" />
+    </group_state>
+    <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
+    <end_effector name="hand" parent_link="endpoint_link" group="hand" parent_group="arm" />
+    <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
+    <virtual_joint name="virtual_joint" type="fixed" parent_frame="odom_combined" child_link="world" />
+    <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <disable_collisions link1="A35" link2="drive1" reason="Never" />
+    <disable_collisions link1="A35" link2="drive2" reason="Never" />
+    <disable_collisions link1="A35" link2="drive3" reason="Never" />
+    <disable_collisions link1="A35" link2="drive4" reason="Never" />
+    <disable_collisions link1="A35" link2="drive5" reason="Never" />
+    <disable_collisions link1="A35" link2="drive6" reason="Adjacent" />
+    <disable_collisions link1="A35" link2="drive7" reason="Adjacent" />
+    <disable_collisions link1="A35" link2="forearm" reason="Never" />
+    <disable_collisions link1="A35" link2="index_dist" reason="Never" />
+    <disable_collisions link1="A35" link2="index_med" reason="Never" />
+    <disable_collisions link1="A35" link2="index_prox" reason="Never" />
+    <disable_collisions link1="A35" link2="palm" reason="Never" />
+    <disable_collisions link1="A35" link2="pedestal_link" reason="Never" />
+    <disable_collisions link1="A35" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="A35" link2="ring_med" reason="Never" />
+    <disable_collisions link1="A35" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="A35" link2="shoulder" reason="Never" />
+    <disable_collisions link1="A35" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="A35" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="A35" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="A35" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="A35" link2="tube" reason="Never" />
+    <disable_collisions link1="drive1" link2="drive2" reason="Adjacent" />
+    <disable_collisions link1="drive1" link2="drive3" reason="Never" />
+    <disable_collisions link1="drive1" link2="drive4" reason="Never" />
+    <disable_collisions link1="drive1" link2="drive5" reason="Never" />
+    <disable_collisions link1="drive1" link2="drive6" reason="Never" />
+    <disable_collisions link1="drive1" link2="drive7" reason="Never" />
+    <disable_collisions link1="drive1" link2="forearm" reason="Never" />
+    <disable_collisions link1="drive1" link2="pedestal_link" reason="Adjacent" />
+    <disable_collisions link1="drive1" link2="shoulder" reason="Never" />
+    <disable_collisions link1="drive1" link2="tube" reason="Never" />
+    <disable_collisions link1="drive2" link2="drive3" reason="Never" />
+    <disable_collisions link1="drive2" link2="drive4" reason="Never" />
+    <disable_collisions link1="drive2" link2="drive5" reason="Never" />
+    <disable_collisions link1="drive2" link2="drive6" reason="Never" />
+    <disable_collisions link1="drive2" link2="drive7" reason="Never" />
+    <disable_collisions link1="drive2" link2="forearm" reason="Never" />
+    <disable_collisions link1="drive2" link2="pedestal_link" reason="Never" />
+    <disable_collisions link1="drive2" link2="shoulder" reason="Adjacent" />
+    <disable_collisions link1="drive2" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="drive2" link2="tube" reason="Never" />
+    <disable_collisions link1="drive3" link2="drive4" reason="Never" />
+    <disable_collisions link1="drive3" link2="drive5" reason="Never" />
+    <disable_collisions link1="drive3" link2="drive6" reason="Never" />
+    <disable_collisions link1="drive3" link2="drive7" reason="Never" />
+    <disable_collisions link1="drive3" link2="forearm" reason="Never" />
+    <disable_collisions link1="drive3" link2="shoulder" reason="Adjacent" />
+    <disable_collisions link1="drive3" link2="tube" reason="Adjacent" />
+    <disable_collisions link1="drive4" link2="drive5" reason="Never" />
+    <disable_collisions link1="drive4" link2="drive6" reason="Never" />
+    <disable_collisions link1="drive4" link2="drive7" reason="Never" />
+    <disable_collisions link1="drive4" link2="forearm" reason="Adjacent" />
+    <disable_collisions link1="drive4" link2="index_dist" reason="Never" />
+    <disable_collisions link1="drive4" link2="index_med" reason="Never" />
+    <disable_collisions link1="drive4" link2="index_prox" reason="Never" />
+    <disable_collisions link1="drive4" link2="palm" reason="Never" />
+    <disable_collisions link1="drive4" link2="pedestal_link" reason="Never" />
+    <disable_collisions link1="drive4" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="drive4" link2="ring_med" reason="Never" />
+    <disable_collisions link1="drive4" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="drive4" link2="shoulder" reason="Never" />
+    <disable_collisions link1="drive4" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="drive4" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="drive4" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="drive4" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="drive4" link2="tube" reason="Adjacent" />
+    <disable_collisions link1="drive5" link2="drive6" reason="Adjacent" />
+    <disable_collisions link1="drive5" link2="drive7" reason="Never" />
+    <disable_collisions link1="drive5" link2="forearm" reason="Adjacent" />
+    <disable_collisions link1="drive5" link2="index_dist" reason="Never" />
+    <disable_collisions link1="drive5" link2="index_med" reason="Never" />
+    <disable_collisions link1="drive5" link2="index_prox" reason="Never" />
+    <disable_collisions link1="drive5" link2="palm" reason="Never" />
+    <disable_collisions link1="drive5" link2="pedestal_link" reason="Never" />
+    <disable_collisions link1="drive5" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="drive5" link2="ring_med" reason="Never" />
+    <disable_collisions link1="drive5" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="drive5" link2="shoulder" reason="Never" />
+    <disable_collisions link1="drive5" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="drive5" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="drive5" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="drive5" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="drive5" link2="tube" reason="Never" />
+    <disable_collisions link1="drive6" link2="drive7" reason="Never" />
+    <disable_collisions link1="drive6" link2="forearm" reason="Never" />
+    <disable_collisions link1="drive6" link2="index_dist" reason="Never" />
+    <disable_collisions link1="drive6" link2="index_med" reason="Never" />
+    <disable_collisions link1="drive6" link2="index_prox" reason="Never" />
+    <disable_collisions link1="drive6" link2="palm" reason="Never" />
+    <disable_collisions link1="drive6" link2="pedestal_link" reason="Never" />
+    <disable_collisions link1="drive6" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="drive6" link2="ring_med" reason="Never" />
+    <disable_collisions link1="drive6" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="drive6" link2="shoulder" reason="Never" />
+    <disable_collisions link1="drive6" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="drive6" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="drive6" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="drive6" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="drive6" link2="tube" reason="Never" />
+    <disable_collisions link1="drive7" link2="forearm" reason="Never" />
+    <disable_collisions link1="drive7" link2="index_dist" reason="Never" />
+    <disable_collisions link1="drive7" link2="index_med" reason="Never" />
+    <disable_collisions link1="drive7" link2="index_prox" reason="Never" />
+    <disable_collisions link1="drive7" link2="palm" reason="Adjacent" />
+    <disable_collisions link1="drive7" link2="pedestal_link" reason="Never" />
+    <disable_collisions link1="drive7" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="drive7" link2="ring_med" reason="Never" />
+    <disable_collisions link1="drive7" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="drive7" link2="shoulder" reason="Never" />
+    <disable_collisions link1="drive7" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="drive7" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="drive7" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="drive7" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="drive7" link2="tube" reason="Never" />
+    <disable_collisions link1="forearm" link2="index_dist" reason="Never" />
+    <disable_collisions link1="forearm" link2="index_med" reason="Never" />
+    <disable_collisions link1="forearm" link2="index_prox" reason="Never" />
+    <disable_collisions link1="forearm" link2="palm" reason="Never" />
+    <disable_collisions link1="forearm" link2="pedestal_link" reason="Never" />
+    <disable_collisions link1="forearm" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="forearm" link2="ring_med" reason="Never" />
+    <disable_collisions link1="forearm" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="forearm" link2="shoulder" reason="Never" />
+    <disable_collisions link1="forearm" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="forearm" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="forearm" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="forearm" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="forearm" link2="tube" reason="Never" />
+    <disable_collisions link1="index_dist" link2="index_med" reason="Adjacent" />
+    <disable_collisions link1="index_dist" link2="index_prox" reason="Never" />
+    <disable_collisions link1="index_dist" link2="palm" reason="Never" />
+    <disable_collisions link1="index_dist" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="index_dist" link2="ring_med" reason="Never" />
+    <disable_collisions link1="index_dist" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="index_dist" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="index_dist" link2="tube" reason="Never" />
+    <disable_collisions link1="index_med" link2="index_prox" reason="Adjacent" />
+    <disable_collisions link1="index_med" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="index_med" link2="ring_med" reason="Never" />
+    <disable_collisions link1="index_med" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="index_med" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="index_med" link2="tube" reason="Never" />
+    <disable_collisions link1="index_prox" link2="palm" reason="Adjacent" />
+    <disable_collisions link1="index_prox" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="index_prox" link2="ring_med" reason="Never" />
+    <disable_collisions link1="index_prox" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="index_prox" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="index_prox" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="index_prox" link2="tube" reason="Never" />
+    <disable_collisions link1="palm" link2="ring_dist" reason="Never" />
+    <disable_collisions link1="palm" link2="ring_prox" reason="Adjacent" />
+    <disable_collisions link1="palm" link2="thumb_base" reason="Adjacent" />
+    <disable_collisions link1="pedestal_link" link2="shoulder" reason="Default" />
+    <disable_collisions link1="pedestal_link" link2="tube" reason="Never" />
+    <disable_collisions link1="ring_dist" link2="ring_med" reason="Adjacent" />
+    <disable_collisions link1="ring_dist" link2="ring_prox" reason="Never" />
+    <disable_collisions link1="ring_dist" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="ring_dist" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="ring_dist" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="ring_dist" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="ring_dist" link2="tube" reason="Never" />
+    <disable_collisions link1="ring_med" link2="ring_prox" reason="Adjacent" />
+    <disable_collisions link1="ring_med" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="ring_med" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="ring_med" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="ring_med" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="ring_med" link2="tube" reason="Never" />
+    <disable_collisions link1="ring_prox" link2="thumb_base" reason="Never" />
+    <disable_collisions link1="ring_prox" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="ring_prox" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="ring_prox" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="ring_prox" link2="tube" reason="Never" />
+    <disable_collisions link1="shoulder" link2="tube" reason="Never" />
+    <disable_collisions link1="thumb_base" link2="thumb_dist" reason="Never" />
+    <disable_collisions link1="thumb_base" link2="thumb_med" reason="Never" />
+    <disable_collisions link1="thumb_base" link2="thumb_prox" reason="Adjacent" />
+    <disable_collisions link1="thumb_dist" link2="thumb_med" reason="Adjacent" />
+    <disable_collisions link1="thumb_dist" link2="thumb_prox" reason="Never" />
+    <disable_collisions link1="thumb_med" link2="thumb_prox" reason="Adjacent" />
+</robot>

@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hdt_saffir_description
+    relative_path: urdf/hdt_saffir_left.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/hdt_saffir_left.srdf
+  CONFIG:
+    author_name: aksh
+    author_email: aksh@gmail.com
+    generated_timestamp: 1709521192

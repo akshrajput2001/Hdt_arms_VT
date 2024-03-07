@@ -8,6 +8,8 @@
   <!-- Joint effort controllers -->
   <rosparam file="$(find hdt_saffir_gazebo)/config/joint_effort_controllers.yaml" command="load"/>
 
+<!--<rosparam file="$(find hdt_saffir_gazebo)/config/joint_position_controllers_conventional.yaml" command="load"/>-->
+
   <!-- Robot model -->
   <include file="$(find hdt_saffir_description)/launch/upload_hdt_arm.launch">
     <arg name="robot" default="$(arg robot)"/>

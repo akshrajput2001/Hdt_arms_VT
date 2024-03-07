@@ -1044,6 +1044,24 @@ clean: hdt_saffir_moveit/CMakeFiles/_catkin_empty_exported_target.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory moveit_test2
+
+# Convenience name for "all" pass in the directory.
+moveit_test2/all:
+
+.PHONY : moveit_test2/all
+
+# Convenience name for "clean" pass in the directory.
+moveit_test2/clean:
+
+.PHONY : moveit_test2/clean
+
+# Convenience name for "preinstall" pass in the directory.
+moveit_test2/preinstall:
+
+.PHONY : moveit_test2/preinstall
+
+#=============================================================================
 # Directory level rules for directory test1
 
 # Convenience name for "all" pass in the directory.

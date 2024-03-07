@@ -1,0 +1,91 @@
+hdt_saffir:
+  left_joint1_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/joint1
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  left_joint2_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/joint2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  left_joint3_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/joint3
+    pid: {p: 100.0, i: 0.0, d: 0.0}
+  left_joint4_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/joint4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  left_joint5_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/joint5
+    pid: {p: 10.0, i: 0.01, d: 0.0}
+  left_joint6_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/joint6
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  left_joint7_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/joint7
+    pid: {p: 10.0, i: 0.01, d: 0.0}
+  left_thumb_base_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/thumb_base
+    pid: {p: 10.0, i: 0.01, d: 0.0}
+  left_thumb_prox_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/thumb_prox
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  left_index_prox_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/index_prox
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  left_ring_prox_controller:
+    type: effort_controllers/JointPositionController
+    joint: left/ring_prox
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+
+  right_joint1_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/joint1
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  right_joint2_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/joint2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  right_joint3_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/joint3
+    pid: {p: 100.0, i: 0.01, d: 0.0}
+  right_joint4_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/joint4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  right_joint5_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/joint5
+    pid: {p: 10.0, i: 0.01, d: 0.0}
+  right_joint6_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/joint6
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  right_joint7_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/joint7
+    pid: {p: 10.0, i: 0.01, d: 0.0}
+  right_thumb_base_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/thumb_base
+    pid: {p: 10.0, i: 0.01, d: 0.0}
+  right_thumb_prox_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/thumb_prox
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  right_index_prox_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/index_prox
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  right_ring_prox_controller:
+    type: effort_controllers/JointPositionController
+    joint: right/ring_prox
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+

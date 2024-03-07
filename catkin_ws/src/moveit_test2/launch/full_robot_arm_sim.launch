@@ -1,0 +1,11 @@
+<launch>
+
+	<include file="$(find moveit_test2)/launch/arm_urdf.launch"/>
+	<include file="$(find moveit_test2)/launch/move_group.launch"/>
+ 	<arg name="use_rviz" default="true"/>
+ 	<arg name="rviz_config"/>
+	<include file="$(find moveit_test2)/launch/moveit_rviz.launch" if= "$(arg use_rviz)">
+		<arg name="rviz_config" value="$(find moveit_test2)/launch/moveit.rviz"/>
+	</include>
+ </launch>
+
